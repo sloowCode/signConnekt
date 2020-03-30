@@ -1,0 +1,603 @@
+
+.all {
+  
+  background-color: #f5e4ec;
+}
+.signin{
+  background-image : url(./components/images/teacher.jpg);
+  background-position: right;
+  background-size: 1500px;
+ }
+ .homebackpic{
+   background-image: url(./components/images/hand.jpg);
+  
+ }
+
+
+nav.navbar {
+  height: 90px;
+}
+.navbar-light{
+  background-color:#2B0707;
+  
+}
+#trans{
+  background: transparent;
+}
+
+.center {
+  margin-top: 9rem;
+}
+.center>h1{
+  
+  margin-bottom: 2rem;
+  text-align: center;
+  font-family: 'Segoe UI' ;
+  font-weight: normal;
+  font-style: italic;
+  color: black;
+}
+.center .butts .mb-2 {
+  width: 220px;
+  height: 70px;
+  border-radius: 6rem;
+ 
+
+}
+.butts{
+  display: flex;
+  justify-content: center;
+  margin-bottom:4rem ;
+}
+.center .butts .one {
+  background-color: red;
+  border-color: red;
+  
+}
+.center .butts .two {
+  background-color:darkcyan;
+  border-color: darkcyan;
+}
+p.or {
+  text-align: center;
+  font-weight: 600;
+  margin-top: -3rem;
+}
+
+  
+nav.navbar-light .navbar-nav .nav-link {
+  color: rgb(202, 27, 27);
+  padding: 1.5rem;
+  font-size: 400;
+  font-weight: 600;
+  
+}
+nav.navbar-light .navbar-nav .main-links {
+  color:rgb(132, 124, 155);
+  padding: 1.5rem;
+  font-size: 400;
+  font-weight: 600;
+  
+}
+
+.badges{
+  margin-top: -7rem;
+  display: flex;
+  justify-content: space-evenly;
+
+  
+
+}
+
+.badges .badge {
+  height: 115px;
+  width: 125px;
+  padding-top: 3.5rem;
+  border-radius: 20rem;
+  color: azure;
+  
+}
+
+.searchTitle{
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 0rem;
+  font-weight: 500;
+  color: black;
+}
+.homeline{
+  border-color: sienna;
+  border-width: 0.1rem;
+}
+.card-img-top{
+  height: 250px;
+  width: 245px;
+  
+} 
+
+.card{
+  height: 300px;
+  width: 245px;
+
+} 
+.card .card-title {
+  font-weight: 500;
+  color: black;
+  text-align: left;
+  font-size: larger;
+}
+.card .card-text{
+  font-weight: 400;
+  color: darkcyan;
+  font-size: large;
+  text-align: center;
+  
+}
+.card .card-textp{
+  font-weight: 400;
+  color: darkcyan;
+  font-size: small;
+  text-align: right;
+  margin-top: -1.1rem;
+}
+.card .card-text> span{
+  margin-bottom: auto;
+}
+.searchcard .card .searchbutt{
+  margin-left:3rem ;
+  background-color:orangered;
+  color: white;
+  border-radius: 0.5rem;
+  border-color: sienna;
+  border-width: 0.3px;
+
+  
+}
+.imgfield .logincard{
+ 
+  height: 600px;
+  width: 500px;
+  margin-left: 27rem;
+  margin-bottom: 2rem;
+  border-width: 0.1rem;
+  border-color: rgb(214, 209, 209);
+  border-radius: 0.8rem;
+ 
+}
+
+.logincard .card-body>img{
+  margin-left: 8rem;
+  
+}
+.logincard .card-body>form{
+  margin: 2rem;
+  
+}
+.logincard .card-body>form .form-control{
+  margin-top: 2rem;
+  height: 70px;
+  
+}
+.logincard .card-body>form>button{
+  margin-top: 1rem;
+  margin-left:7rem;
+  height: 70px;
+  width: 180px;
+}
+.logincard .card-body>p{
+  text-align: center;
+
+}
+.logincard .card-body>p>span{
+  color: red;
+
+}
+
+.second{
+  margin-top: 4rem;
+}
+
+footer{
+  height: 285px;
+  background-color: #2B0707;
+  margin-top: 8rem;
+  
+
+}
+
+
+.lane1{
+  margin-top: 2rem;
+  
+}
+.lane2{
+  margin-top: 3rem;
+}
+.lane3{
+  margin-top: 3rem;
+}
+
+.footimage{
+  margin-bottom: 0.5rem;
+}
+.lane1>p{
+  
+  font-weight: 500;
+  color:rgb(132, 124, 155);
+  
+}
+ .lane1>p>span{
+   color:rgb(232, 238, 247) ;
+ }
+ .lane1>p>span>b{
+   color:orangered ;
+ }
+ 
+#copyright{
+  color: rgb(188, 195, 204);
+}
+
+
+.lane2>ul>h1{
+  font-size: 20px;
+  color: rgb(188, 195, 204);
+}
+.lane2>ul>h1> b{
+  color: orangered;
+}
+.lane2>ul>hr{
+border-color: rgb(75, 73, 73);
+}
+.lane2>ul>a{
+  color: rgb(132, 124, 155);
+}
+.lane3>h2{
+  color:rgb(188, 195, 204);
+  text-align:center;
+  font-size:x-large;
+}
+.lane3 .icons>span{
+
+  margin-left: 1rem;
+  
+}
+.lane3 .icons{
+
+  margin-left: 2.5rem;
+  
+}
+
+.sign> p{
+  margin-top:7rem;
+  text-align: center;
+  margin-bottom: 3rem;
+  font-size: larger;
+}
+
+.sign .card {
+  margin-left: 10rem;
+  width: 800px;
+  height: 900px;
+  margin-top: 5rem;
+}
+.sign .card >img{
+  margin-top: 1rem;
+  margin-left: 19.5rem;
+}
+.sign .card .card-title{
+  color: rgb(51, 14, 14);
+  margin-left: 3.5rem;
+}
+.sign .card .card-body>Form {
+  margin-top: 2rem;
+}
+.sign .card .card-body>Form .form-control{
+  border-color:lightblue;
+  border-radius: 0.7rem;
+  height: 70px;
+}
+.sign .card .card-body>Form .form-control::placeholder{
+  font-style: italic;
+}
+.sign .card .card-body>Form .form-label{
+  padding-top:1.5rem;
+  font-weight: 600;
+}
+.searchcard .card{
+  border-width: 0.03rem;
+  border-radius: 1rem;
+  border-color:rgb(126, 124, 123);
+  
+
+}
+.searchcard .card .card-img-top{
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  padding: 0.1rem;
+}
+
+.signtext{
+  font-style: italic;
+  color: rgb(95, 94, 94);
+  font-weight: 500;
+}
+.formbutt{
+  height: 70px;
+  width: 200px;
+  float: right;
+  
+}
+.signP{
+  text-align: center;
+  color: grey;
+  font-size: larger;
+  font-weight: 600;
+  
+}
+.signrow{
+  margin-top: 3rem;
+}
+.navbar-nav> img{
+  border-radius: 8rem;
+}
+.search{
+  width: 1350px;
+  height: 370px;
+  margin-top: 6rem;
+  
+}
+.mainsearch .search{
+  border-top-width: 0.8rem;
+  background-color:#2B0707 ;
+  border-top-color:sienna;
+}
+.search .card-body .searchimg>img{
+  
+  margin-top:-1.0rem;
+  margin-left: 8rem;
+  border-radius: 15rem;
+  opacity: 0.5;
+}
+.search .card-body .card-text{
+  font-size: xx-large;
+  font-weight:900;
+  padding-top: 9rem;
+  color: grey;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+ .mainsearch .searchfield>Form{
+  margin-top: 3rem;
+}
+ .mainsearch .searchfield>Form .form-control{
+  height: 60px;
+  border-color: sienna;
+}
+.resetbutt{
+  margin-left: 1rem;
+}
+
+.searchline{
+  margin-top: 3rem;
+  border-width: 0.1rem;
+  border-color: sienna;
+}
+
+.rowbadge{
+  margin-top: 7rem;
+  margin-bottom: -4rem;
+  margin-left: 10rem;
+  display: flex;
+  justify-content: center;
+}
+.rowbadge .badge{
+  font-size: medium;
+  margin: 0.1rem;
+  color: gray;
+  
+}
+
+.user .usercard{
+  width: 1350px;
+  height: 440px;
+  background-color:#2B0707 ;
+}
+.user .usercard .card-body{
+  margin-top: 1.5rem;
+}
+.user .usercard .card-title{
+  color: ghostwhite;
+  font-size: medium;
+  margin-bottom: -1rem;
+}
+.user .usercard .card-title>span{
+  color: gray;
+  font-size:larger;
+  font-style: italic;
+  font-weight: 700;
+  
+}
+.user .usercard .right{
+  text-align: right;
+}
+.user .usercard .card-body .img-fluid{
+  border-radius: 10rem;
+}
+Form .labels{
+  color: gray;
+  font-weight: 600;
+}
+Form .aboutlabels{
+  color:black;
+  font-weight: 600;
+  
+}
+Form .rightlabels{
+  color: black;
+  font-weight:600;
+}
+.user .aboutrow{
+  margin-top:1rem;
+}
+.user .usercard .card-body .picbutt{
+  border-radius: 0.5rem;
+  background-color: orangered;
+  border-width: 0rem;
+  color: white;
+  font-size: small;
+  font-weight: 600;
+  margin-left: 0.5rem;
+  height: 30px;
+  width: 100px;
+}
+.figure-caption{
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+.figure-caption>p{
+  font-size:medium;
+}
+.userline{
+  border-color: sienna;
+  border-width: 0.1rem;
+}
+.sideline{
+  border-color: sienna;
+  border-width: 0.1rem;
+  margin-top: 2.5rem;
+  
+}
+.userbutt .update-butt{
+  width:150px;
+  height: 60px;
+  background-color: darkcyan;
+  border-width: 0rem;
+  font-weight: 600;
+  color: white;
+  border-radius: 0.5rem;
+}
+.userbutt .del-butt{
+  width:150px;
+  height: 60px;
+  background-color:orangered;
+  border-width: 0rem;
+  font-weight: 600;
+  color: white;
+  margin-left: 1rem;
+  border-radius: 0.5rem;
+
+}
+.aboutpage{
+  background-color:#f5e4ec ;
+}
+.about-motto .card{
+  width: 1350px;
+  height: 750px;
+  background-image:url(./components/images/new-work.jpg);
+  margin-top:-3.6rem;
+  margin-left:-0.1rem;
+  
+}
+
+.about-motto .card .card-title>h1{
+  font-weight: normal;
+  text-align: center;
+  margin-top: 2rem;
+  font-style: italic;
+}
+.about-motto .card .card-body>img{
+ margin-top:8rem;
+ margin-left:34rem;
+}
+
+.aboutUs{
+  margin-top: 8rem;
+}
+.about-motto .aboutUs .badge1{
+  height: 100px;
+  width: 150px;
+  border-radius: 2rem;
+  font-size: x-large;
+  font-style: italic;
+  padding-top:2.5rem;
+  margin-left:0rem;
+  margin-bottom: 7rem;
+  margin-top: -3rem;
+  color: white;
+  background-color: black;
+  
+
+}
+.about-motto .aboutUs .badge2{
+  height: 100px;
+  width: 150px;
+  border-radius: 2rem;
+  font-size: x-large;
+  font-style: italic;
+  padding-top:2.5rem;
+  margin-left:0rem;
+  margin-bottom: 7rem;
+  margin-top: -3rem;
+  color: white;
+  background-color: black;
+  
+
+}
+
+.about-motto .aboutUs .badge3{
+  height: 100px;
+  width: 150px;
+  border-radius: 2rem;
+  font-size: x-large;
+  font-style: italic;
+  padding-top:2.5rem;
+  margin-left:0rem;
+  margin-bottom: 7rem;
+  margin-top: -3rem;
+  color: white;
+  background-color: black;
+  
+}
+.aboutUs .about-row .card-img{
+  border-radius: 20rem;
+  opacity: 0.8;
+}
+.aboutUs .mission-row .card-img{
+  border-radius: 20rem;
+  opacity: 0.8;
+}
+.aboutUs .vision-row .card-img{
+  border-radius: 20rem;
+  opacity: 0.8;
+}
+.about-motto .aboutUs .mission-row{
+  margin-top:8rem;
+}
+.about-motto .aboutUs .vision-row{
+  margin-top:8rem;
+}
+.about-motto .aboutUs .aboutP{
+  text-align: right;
+  font-style: italic;
+  font-size: large;
+  font-weight: 500;
+
+}
+.about-motto .aboutUs .mission{
+  text-align: left;
+  font-style: italic;
+  font-size: large;
+  font-weight: 500;
+  margin-top: 3rem;
+
+}
+.about-motto .aboutUs .vision{
+  text-align: right;
+  font-style: italic;
+  font-size: large;
+  font-weight: 500;
+  margin-top:5rem;
+
+}
+
