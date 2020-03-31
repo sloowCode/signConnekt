@@ -14,6 +14,11 @@ import Sss from '../images/sss.jpeg';
 import Es from '../images/es.png';
 import Smile from '../images/smile.jpg';
 import LocationOnIcon from '@material-ui/icons/LocationOn';
+import HomeWorkIcon from '@material-ui/icons/HomeWork';
+import ArrowDropDownIcon from '@material-ui/icons/ArrowDropDown';
+import ArrowForwardIosIcon from '@material-ui/icons/ArrowForwardIos';
+import SportsKabaddiIcon from '@material-ui/icons/SportsKabaddi';
+import WorkIcon from '@material-ui/icons/Work';
 
 const homeContent =()=>{
     return(
@@ -24,18 +29,19 @@ const homeContent =()=>{
 
                 <div className="container-fluid ">
                     <Container className="badges">
-                        <Row>
-                            <Col>
-                            <Link to="/searchpage"> <span className="badge badge-dark">HOME TUTION</span></Link>
-                            </Col>
-                            <Col>
-                            <Link to="/searchpage"> <span className="badge badge-dark">JOB RECRUITMENT</span></Link>
-                            </Col>
-                            <Col>
-                            <Link to="/searchpage"> <span className="badge badge-dark">HANGOUT</span></Link>
+                        
+                            <ul className='iconz'>
+                                <li className='list-item'><Link to="/searchpage"><HomeWorkIcon className='icon1' color='action' style={{ fontSize: 90 }}/><p>Home Tution</p></Link></li>
+                                <li className='list-item'><Link to="/searchpage"><WorkIcon className='icon2' color='action' style={{ fontSize: 90 }}/><p>General Recruitments</p></Link></li>
+                                <li className='list-item'><Link to="/searchpage"><SportsKabaddiIcon className='icon3' color='action' style={{ fontSize: 90 }}/><p className='hang'>Hangout</p></Link></li>
+                                
+                                
 
-                            </Col>
-                        </Row>
+                            </ul>
+                            
+                            
+                            
+                    
                                               
                      </Container>
                      <Container>

@@ -1,16 +1,30 @@
 
 .all {
   
-  background-color: #f5e4ec;
+  background-color: #faeff4;
+  
 }
 .signin{
   background-image : url(./components/images/teacher.jpg);
   background-position: right;
   background-size: 1500px;
+  
  }
  .homebackpic{
    background-image: url(./components/images/hand.jpg);
+   animation-name: change;
+   animation-duration:30s;
+   animation-timing-function: ease-in-out;
+   animation-delay: 0s;
+   animation-iteration-count: infinite;
+   animation-direction:alternate;
+   
   
+ }
+ @keyframes change {
+   0% {background-image: url(./components/images/hand.jpg);}
+   50% {background-image: url(./components/images/teacher.jpg);}
+   100% {background-image: url(./components/images/sso.jpg);}
  }
 
 
@@ -71,6 +85,7 @@ nav.navbar-light .navbar-nav .nav-link {
   font-size: 400;
   font-weight: 600;
   
+  
 }
 nav.navbar-light .navbar-nav .main-links {
   color:rgb(132, 124, 155);
@@ -78,25 +93,47 @@ nav.navbar-light .navbar-nav .main-links {
   font-size: 400;
   font-weight: 600;
   
+  
 }
+
 
 .badges{
   margin-top: -7rem;
-  display: flex;
-  justify-content: space-evenly;
-
-  
+ 
 
 }
-
-.badges .badge {
-  height: 115px;
-  width: 125px;
-  padding-top: 3.5rem;
-  border-radius: 20rem;
-  color: azure;
+.badges .iconz{
+  display:inline-flex;
+  list-style: none;
+  margin-left: 15.5rem;
   
 }
+.badges .iconz .list-item{
+  padding-left: 3rem;
+  
+}
+.badges .iconz .list-item :hover {
+  
+  color:sienna;
+  text-decoration:none;
+  line-height: 2rem;
+  transition: 0.3s;
+ 
+}
+.badges .iconz .list-item .icon2{
+  margin-left: 2rem;
+  
+}
+.badges .iconz .list-item p{
+ color: grey;
+ font-weight: 600;
+ padding-left: -0rem;
+}
+.badges .iconz .list-item .hang{
+ 
+ padding-left: 1rem;
+}
+
 
 .searchTitle{
   text-align: center;
@@ -495,8 +532,8 @@ Form .rightlabels{
   width: 1350px;
   height: 750px;
   background-image:url(./components/images/new-work.jpg);
-  margin-top:-3.6rem;
-  margin-left:-0.1rem;
+  margin-top:-0rem;
+  margin-left:-0rem;
   
 }
 
@@ -516,47 +553,50 @@ Form .rightlabels{
 }
 .about-motto .aboutUs .badge1{
   height: 100px;
-  width: 150px;
+  width: 200px;
   border-radius: 2rem;
-  font-size: x-large;
+  font-size: xx-large;
   font-style: italic;
   padding-top:2.5rem;
-  margin-left:0rem;
+  margin-left:-1rem;
   margin-bottom: 7rem;
   margin-top: -3rem;
   color: white;
   background-color: black;
+  opacity: 0.9;
   
 
 }
 .about-motto .aboutUs .badge2{
   height: 100px;
-  width: 150px;
+  width: 200px;
   border-radius: 2rem;
-  font-size: x-large;
+  font-size: xx-large;
   font-style: italic;
   padding-top:2.5rem;
-  margin-left:0rem;
+  margin-left:-1rem;
   margin-bottom: 7rem;
   margin-top: -3rem;
   color: white;
   background-color: black;
+  opacity: 0.9;
   
 
 }
 
 .about-motto .aboutUs .badge3{
   height: 100px;
-  width: 150px;
+  width: 200px;
   border-radius: 2rem;
-  font-size: x-large;
+  font-size: xx-large;
   font-style: italic;
   padding-top:2.5rem;
-  margin-left:0rem;
+  margin-left:-1rem;
   margin-bottom: 7rem;
   margin-top: -3rem;
   color: white;
   background-color: black;
+  opacity: 0.9;
   
 }
 .aboutUs .about-row .card-img{
@@ -580,14 +620,22 @@ Form .rightlabels{
 .about-motto .aboutUs .aboutP{
   text-align: right;
   font-style: italic;
-  font-size: large;
+  font-size: larger;
   font-weight: 500;
+
+}
+.about-motto .aboutUs .aboutP .signlink{
+  color: gray;
+
+}
+.about-motto .aboutUs .vision .signlink{
+  color: gray;
 
 }
 .about-motto .aboutUs .mission{
   text-align: left;
   font-style: italic;
-  font-size: large;
+  font-size: larger;
   font-weight: 500;
   margin-top: 3rem;
 
@@ -595,9 +643,15 @@ Form .rightlabels{
 .about-motto .aboutUs .vision{
   text-align: right;
   font-style: italic;
-  font-size: large;
+  font-size: larger;
   font-weight: 500;
   margin-top:5rem;
 
+}
+.aboutUs .signG{
+  color: orangered;
+}
+.aboutUs .nakwa{
+  color: green;
 }
 
