@@ -5,7 +5,7 @@ import ContactContent from './contents/contactContent';
 class contactPage extends Component {
     render(){
         return(
-            <div>
+            <div >
             <MainNav/>
             <ContactContent/>
             

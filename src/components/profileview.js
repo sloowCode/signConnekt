@@ -1,5 +1,5 @@
 import React,{Component} from 'react';
-import MainNav from './layouts/MainNav';
+import MainNav from './layouts/mainNav';
 import MainFooter from './layouts/mainFooter';
 import ProfileviewContent from './contents/profileviewContent';
 

@@ -96,6 +96,11 @@ nav.navbar-light .navbar-nav .main-links {
   
 }
 
+nav.navbar-light .navbar-nav .main-links:hover {
+  color: sienna; 
+
+}
+
 
 .badges{
   margin-top: -7rem;
@@ -294,9 +299,10 @@ border-color: rgb(75, 73, 73);
   font-size:x-large;
 }
 .lane3 .icons>span{
-
-  margin-left: 1rem;
-  
+margin-left: 1rem; 
+}
+.lane3 .icons .action{
+color: rgb(132, 124, 155); 
 }
 .lane3 .icons{
 
@@ -655,3 +661,40 @@ Form .rightlabels{
   color: green;
 }
 
+/* Contact Page */
+
+.contact-content .card{
+  background-color:#2B0707 ;
+  width:1366px;
+  height: auto;
+  border-top-width: 1rem;
+  border-top-color: sienna;
+  margin-top: 5.5rem;
+}
+
+.contact-content .card .contactforms .form-control{
+  margin-top: 1rem;
+}
+.contact-content .card .card-body h1{
+  color:grey;
+}
+.contact-content .card .card-body p{
+  color:rgb(219, 107, 55);
+  font-style: italic;
+  font-size: medium;
+ 
+}
+.contact-content .card .card-body {
+  margin-top: 2rem;
+ 
+}
+.contact-content .card .card-body .contactinfo .action{
+  margin-top: 1rem;
+}
+.contact-content .card .card-body .contactinfo p{
+  margin-top: 1.2rem;
+  font-weight: 600;
+  font-size: larger;
+  color: lightblue;
+  font-style: normal;
+}

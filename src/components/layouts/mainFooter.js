@@ -33,11 +33,11 @@ const mainFooter =()=>{
                     <ul>
                         <h1>si<b>G</b>n Connekt</h1>
                         <hr/>
-                        <Link to=''>ABOUT</Link>
+                        <Link to='/aboutPage'>ABOUT</Link>
                         <hr/>
-                        <Link to=''>CONTACT</Link>
+                        <Link to='/contactPage'>CONTACT</Link>
                         <hr/>
-                        <Link to=''>JOIN</Link>
+                        <Link to='/signUp'>JOIN</Link>
                         <hr/>
                         
                     </ul>
@@ -47,10 +47,14 @@ const mainFooter =()=>{
                     <Col md='4' className='lane3'>
                         <h2>Keep Connected</h2>
                         <ul class="icons ">
-                          <span><FacebookIcon style={{ fontSize: 45 }}/></span>  
-                          <span><InstagramIcon style={{ fontSize: 45 }}/></span>  
-                          <span><TwitterIcon style={{ fontSize: 45 }}/></span>  
-                          <span><LinkedInIcon style={{ fontSize: 45 }}/></span>  
+                        <span><Link to=''><FacebookIcon className="action" style={{ fontSize: 45 }}/></Link></span>  
+                         <span><Link to=''><InstagramIcon className="action" style={{ fontSize: 45 }}/></Link></span> 
+                        <span><Link to=''><TwitterIcon className="action" style={{ fontSize: 45 }}/></Link></span>
+                       <span> <Link to=''><LinkedInIcon className="action" style={{ fontSize: 45 }}/></Link></span> 
+                          
+                          
+                            
+                           
                         </ul>
                         
                     </Col>
