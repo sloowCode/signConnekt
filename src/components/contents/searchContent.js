@@ -129,7 +129,7 @@ const searchContent =()=>{
                         </Col>
                         <Col>
                         <div className="card">
-                            <img className="card-img-top" src={Kwaku} alt="" />
+                           <Link to='/profileview'><img className="card-img-top" src={Kwaku} alt="" /></Link> 
                             <div className="card-body">
                                 <h5 className="card-title">Kwaku<p className="card-textp">
                                     <span> <LocationOnIcon style={{ color: 'orangered', fontSize:15 }}/></span>EASTERN-REGION</p>

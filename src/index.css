@@ -5,30 +5,38 @@
   
 }
 .signin{
-  background-image : url(./components/images/teacher.jpg);
+  background-image : url(./components/images/teacher.jpg)  ;
   background-position: right;
   background-size: 1500px;
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-origin:fixed ;
   
  }
  .homebackpic{
-   background-image: url(./components/images/hand.jpg);
-   animation-name: change;
+   background-image: url(./components/images/hand.jpg)  ;
+   background-repeat:no-repeat;
+   background-size:cover;
+   background-origin:fixed ;
+  }
+   /*animation-name: change;
    animation-duration:30s;
    animation-timing-function: ease-in-out;
    animation-delay: 0s;
    animation-iteration-count: infinite;
-   animation-direction:alternate;
+   animation-direction:alternate;*/
    
   
- }
+ /*}
  @keyframes change {
-   0% {background-image: url(./components/images/hand.jpg);}
-   50% {background-image: url(./components/images/teacher.jpg);}
-   100% {background-image: url(./components/images/sso.jpg);}
- }
+   0% {background-image: url(./components/images/hand.jpg) ;}
+   50% {background-image: url(./components/images/teacher.jpg) ;}
+   100% {background-image: url(./components/images/sso.jpg) ;}
+ }*/
 
+ /* NAVBARS*/
 
-nav.navbar {
+ nav .navbar {
   height: 90px;
 }
 .navbar-light{
@@ -38,7 +46,35 @@ nav.navbar {
 #trans{
   background: transparent;
 }
+nav.navbar-light .navbar-nav .nav-link {
+  color: rgb(202, 27, 27);
+  padding: 1.5rem;
+  font-size: 400;
+  font-weight: 600;
+  
+  
+}
+nav.navbar-light .navbar-nav .main-links {
+  color:rgb(132, 124, 155);
+  padding: 1.5rem;
+  font-size: 400;
+  font-weight: 600;
+  
+  
+}
 
+nav.navbar-light .navbar-nav .main-links:hover {
+  color: sienna; 
+
+}
+.navbar-nav> img{
+  border-radius: 8rem;
+}
+
+
+
+
+/* HOMEPAGE */
 .center {
   margin-top: 9rem;
 }
@@ -78,34 +114,9 @@ p.or {
   margin-top: -3rem;
 }
 
-  
-nav.navbar-light .navbar-nav .nav-link {
-  color: rgb(202, 27, 27);
-  padding: 1.5rem;
-  font-size: 400;
-  font-weight: 600;
-  
-  
-}
-nav.navbar-light .navbar-nav .main-links {
-  color:rgb(132, 124, 155);
-  padding: 1.5rem;
-  font-size: 400;
-  font-weight: 600;
-  
-  
-}
-
-nav.navbar-light .navbar-nav .main-links:hover {
-  color: sienna; 
-
-}
-
-
-.badges{
+  .badges{
   margin-top: -7rem;
  
-
 }
 .badges .iconz{
   display:inline-flex;
@@ -121,7 +132,7 @@ nav.navbar-light .navbar-nav .main-links:hover {
   
   color:sienna;
   text-decoration:none;
-  line-height: 2rem;
+  line-height: 1rem;
   transition: 0.3s;
  
 }
@@ -185,16 +196,13 @@ nav.navbar-light .navbar-nav .main-links:hover {
 .card .card-text> span{
   margin-bottom: auto;
 }
-.searchcard .card .searchbutt{
-  margin-left:3rem ;
-  background-color:orangered;
-  color: white;
-  border-radius: 0.5rem;
-  border-color: sienna;
-  border-width: 0.3px;
 
-  
-}
+
+
+
+
+/* LOGIN PAGE*/
+
 .imgfield .logincard{
  
   height: 600px;
@@ -238,13 +246,17 @@ nav.navbar-light .navbar-nav .main-links:hover {
 .second{
   margin-top: 4rem;
 }
+ 
+
+
+
+/* FOOTER */
 
 footer{
   height: 285px;
   background-color: #2B0707;
   margin-top: 8rem;
   
-
 }
 
 
@@ -297,6 +309,7 @@ border-color: rgb(75, 73, 73);
   color:rgb(188, 195, 204);
   text-align:center;
   font-size:x-large;
+  margin-left:0.5rem;
 }
 .lane3 .icons>span{
 margin-left: 1rem; 
@@ -305,10 +318,16 @@ margin-left: 1rem;
 color: rgb(132, 124, 155); 
 }
 .lane3 .icons{
-
-  margin-left: 2.5rem;
-  
+  display:flex;
+  justify-content: center;
+  margin-right:3rem;
 }
+
+
+
+
+
+/* SIGN UP PAGE*/
 
 .sign> p{
   margin-top:7rem;
@@ -346,19 +365,6 @@ color: rgb(132, 124, 155);
   padding-top:1.5rem;
   font-weight: 600;
 }
-.searchcard .card{
-  border-width: 0.03rem;
-  border-radius: 1rem;
-  border-color:rgb(126, 124, 123);
-  
-
-}
-.searchcard .card .card-img-top{
-  border-top-left-radius: 1rem;
-  border-top-right-radius: 1rem;
-  padding: 0.1rem;
-}
-
 .signtext{
   font-style: italic;
   color: rgb(95, 94, 94);
@@ -380,11 +386,15 @@ color: rgb(132, 124, 155);
 .signrow{
   margin-top: 3rem;
 }
-.navbar-nav> img{
-  border-radius: 8rem;
-}
+
+
+
+
+
+
+/* SEARCH PAGE*/
 .search{
-  width: 1350px;
+  width: 100%;
   height: 370px;
   margin-top: 6rem;
   
@@ -393,6 +403,18 @@ color: rgb(132, 124, 155);
   border-top-width: 0.8rem;
   background-color:#2B0707 ;
   border-top-color:sienna;
+}
+.searchcard .card{
+  border-width: 0.03rem;
+  border-radius: 1rem;
+  border-color:rgb(126, 124, 123);
+  
+
+}
+.searchcard .card .card-img-top{
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  padding: 0.1rem;
 }
 .search .card-body .searchimg>img{
   
@@ -409,6 +431,16 @@ color: rgb(132, 124, 155);
   text-align: center;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+.searchcard .card .searchbutt{
+  margin-left:3rem ;
+  background-color:orangered;
+  color: white;
+  border-radius: 0.5rem;
+  border-color: sienna;
+  border-width: 0.3px;
+  
+}
+
  .mainsearch .searchfield>Form{
   margin-top: 3rem;
 }
@@ -440,8 +472,13 @@ color: rgb(132, 124, 155);
   
 }
 
+
+
+
+/* USER PROFILE PAGE */
+
 .user .usercard{
-  width: 1350px;
+  width: 100%;
   height: 440px;
   background-color:#2B0707 ;
 }
@@ -531,13 +568,20 @@ Form .rightlabels{
   border-radius: 0.5rem;
 
 }
+
+
+
+/* ABOUT PAGE */
+
 .aboutpage{
   background-color:#f5e4ec ;
 }
 .about-motto .card{
-  width: 1350px;
+  width: 100%;
   height: 750px;
-  background-image:url(./components/images/new-work.jpg);
+  background-image:url(./components/images/new-work.jpg) ;
+  background-repeat:no-repeat;
+  background-size:cover;
   margin-top:-0rem;
   margin-left:-0rem;
   
@@ -665,8 +709,8 @@ Form .rightlabels{
 
 .contact-content .card{
   background-color:#2B0707 ;
-  width:1366px;
-  height: auto;
+  width:100%;
+  height: 600px;
   border-top-width: 1rem;
   border-top-color: sienna;
   margin-top: 5.5rem;
@@ -697,4 +741,142 @@ Form .rightlabels{
   font-size: larger;
   color: lightblue;
   font-style: normal;
+}
+.contact-content .copyrite{
+  text-align: center;
+  margin-top: 0.2rem;
+}
+.contact-content .copyrite span{
+  font-weight:large;
+}
+.contact-content .copyrite span b{
+  color:orangered;
+}
+
+/* PROFILE VIEW PAGE*/
+.profile-view .main-card{
+  height: 900px;
+  width: 950px;
+  margin-top:7rem;
+  margin-left: 5rem;
+  background-color: #2B0707;
+  
+}
+.profile-view .profile-img{
+  height: 800px;
+  width: 500px;
+  margin-left: 0.5rem;
+  border: 2px solid sienna;
+}
+.profile-view .profile-img .card-img-top{
+  height: 500px;
+  
+}
+.profile-view .profile-img .card-title{
+  
+  display:inline-flex;
+  padding-left:8.5rem;
+  color: orangered;
+  width: 495px;
+  margin-left: -1.2rem;
+  
+  
+  
+}
+.profile-view .profile-img .card-text{
+  background-color:rgb(177, 167, 167) ;
+  color:black;
+  margin-left: -1.2rem;
+  margin-right: -1.2rem;
+  margin-bottom: 2rem;
+  height:220px;
+  padding-top:2rem;
+   
+  
+  
+}
+.profile-view .profile-img .card-title p{
+  
+  color: darkcyan;
+  
+}
+.profile-view .profile-info{
+  height: 800px;
+  width: 370px;
+  margin-right: 0rem;
+  background-color:#2B0707 ;
+}
+.profile-view .profile-info h5{
+   text-align: center;
+   font-size: x-large;
+   font-weight: 800;
+   color:white;
+}
+.profile-view .profile-info .status{
+   
+   color:gray;
+   font-size:medium;
+}
+.title-line{
+  border-width: 0.5rem;
+  border-color:sienna;
+}
+.profile-view .profile-info .info h1{
+  color:lightgrey;
+  font-size:small;
+  font-weight:medium;
+  
+}
+.profile-view .profile-info .info p{
+  color:black;
+  font-size:large;
+  font-weight:medium;
+  padding:0.5rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  
+}
+.profile-info .info p:hover{
+  overflow: visible;
+}
+.profile-view .profile-info .info .serv{
+  white-space: nowrap;
+  height: 40px;
+  border: 2px solid sienna;
+  margin-bottom: 0.1rem;
+  background-color: rgb(177, 167, 167);
+  
+  
+}
+.profile-view .profile-info .info{
+  margin-left: 2rem;
+}
+
+.info .contact-info{
+  margin-top:0rem;
+}
+.info .contact-info .serv2{
+  margin-top:1.5rem;
+  white-space: nowrap;
+  height: 50px;
+  border: 1px solid sienna;
+  background-color: rgb(243, 219, 219);
+  border-radius: 1rem;
+  display:inline-flex;
+  
+}
+.info h6{
+  margin-top:4rem;
+  font-weight:600;
+  color:silver;
+}
+.info .title-line{
+  border-width: 0.2rem;
+  border-color:sienna;
+  margin-right:2rem;
+}
+
+.info .contact-info .serv2 .action{
+  margin-top:0.5rem;
+  color:gray;
 }

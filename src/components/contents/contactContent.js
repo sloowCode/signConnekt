@@ -64,6 +64,7 @@ const contactContent =()=>{
                     </Row>
                 </div>
             </div>
+            <p className='copyrite'>&copy;2020 <span>si<b>G</b>n Connekt</span> .All Rights Reserved</p>
         </div>
     )
 }

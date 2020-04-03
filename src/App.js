@@ -5,6 +5,8 @@ import AboutPage from './components/aboutPage';
 import SignUp from './components/signUp';
 import SearchPage from './components/searchPage';
 import UserProfile from'./components/userprofile';
+import ContactPage from'./components/contactPage';
+import Profileview from'./components/profileview';
 import NotFound from './components/notFound';
 import { BrowserRouter ,Route, Switch } from 'react-router-dom';
 
@@ -25,6 +27,8 @@ class App extends Component {
             <Route path='/login'  component={Login}/>
             <Route path='/signUp'  component={SignUp}/>
             <Route path='/searchPage'  component={SearchPage}/>
+            <Route path='/contactPage'  component={ContactPage}/>
+            <Route path='/profileview'  component={Profileview}/>
             <Route path='/userProfile'  component={UserProfile}/>
             <Route component={NotFound}/>
           </Switch>
