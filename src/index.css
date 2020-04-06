@@ -854,7 +854,6 @@ Form .rightlabels{
 .profile-view .profile-info .info p{
   color:black;
   font-size:large;
-  font-weight:medium;
   padding:0.5rem;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -868,10 +867,13 @@ Form .rightlabels{
   height: 40px;
   border: 2px solid sienna;
   margin-bottom: 0.1rem;
-  background-color: rgb(177, 167, 167);
+  background-color: rgb(209, 202, 202);
+  font-weight: 500;
   
   
 }
+
+
 .profile-view .profile-info .info{
   margin-left: 2rem;
 }
@@ -883,10 +885,11 @@ Form .rightlabels{
   margin-top:1.5rem;
   white-space: nowrap;
   height: 50px;
-  border: 1px solid sienna;
-  background-color: rgb(243, 219, 219);
+  border: 3px solid rgb(212, 206, 206);
+  background-color: rgb(253, 245, 245);
   border-radius: 1rem;
   display:inline-flex;
+  font-weight: 700;
   
 }
 .info h6{
