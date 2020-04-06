@@ -8,7 +8,7 @@ import HomeBackground from './contents/homebackground';
 class homePage extends Component {
     render() {
         return (
-            <div >
+            <div className='wrapper'>
                 <div className='homebackpic'>
                 <TransNav/>
                 <HomeBackground/>

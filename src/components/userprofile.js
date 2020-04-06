@@ -6,7 +6,7 @@ import UserForms from './Forms/userForms';
 class userprofile extends Component {
     render(){
         return(
-            <div>
+            <div className='wrapper'>
             <UserNav/>
             <UserForms/>
             <MainFooter/>

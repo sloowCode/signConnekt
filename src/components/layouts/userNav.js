@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
+import Dropdown from 'react-bootstrap/Dropdown'
 
 import Blackdeep from '../blackdeep.png';
 import {Link, NavLink, withRouter} from 'react-router-dom';
@@ -12,7 +13,7 @@ import ArrowDropDownIcon from '@material-ui/icons/ArrowDropDown';
  const userNav = (props)=>{
         
      return (
-            <Navbar className=" navbar-light" id='trans' expand="lg" >
+            <Navbar className="usernav navbar-light" id='trans' expand="lg" >
                         <div className="container-fluid">
                             <Navbar.Brand href="#homePage"> <img src={Blackdeep}  height= "80" width= "120"/> </Navbar.Brand>
                             
@@ -21,15 +22,17 @@ import ArrowDropDownIcon from '@material-ui/icons/ArrowDropDown';
                                 <Link to="/searchPage" className='nav-link'>SEARCH</Link>
                                 <Link to="/aboutPage" className='nav-link'>ABOUT</Link>
                                 <img src={Kwaku} height='70' width='70'/>
-                                <div className="dropdown">
-                                <ArrowDropDownIcon type='button'className='arrowdown dropdown-toggle' data-toggle='dropdown'/>
-                                <div class="dropdown-menu">
-                                    <a class="dropdown-item" href="#">Link 1</a>
-                                    <a class="dropdown-item" href="#">Link 2</a>
-                                    <a class="dropdown-item" href="#">Link 3</a>
-                                </div>
-                                </div>
-                                
+                                <Dropdown className='arrowdown'>
+                                    <Dropdown.Toggle variant="secondary" size='sm'title='lg' id="dropdown-basic">
+                                        
+                                    </Dropdown.Toggle>
+
+                                    <Dropdown.Menu>
+                                        <Dropdown.Item href="/userprofile">Edit profile</Dropdown.Item>
+                                        <Dropdown.Item href="/login">Logout</Dropdown.Item>
+                                        
+                                    </Dropdown.Menu>
+                                </Dropdown>
                                     
 
 
