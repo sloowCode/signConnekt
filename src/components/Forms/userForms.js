@@ -41,8 +41,13 @@ const userForms =()=>{
                                         <Form.Group >
                                             <Form.Label className='labels'>PHONE</Form.Label>
                                             <Form.Control type="input" placeholder="(+233) 055-2236-555" />
+                                            
+                                        </Form.Group>
+                                        <Form.Group >
+                                            <Form.Label className='labels'>WHATSAPP</Form.Label>
+                                            <Form.Control type="input" placeholder="(+233) 050-3292-799" />
                                             <Form.Text className="text-muted mini-text">
-                                            * Must watsapp and video calls
+                                            * Must accept video calls
                                             </Form.Text>
                                         </Form.Group>
                                     </Form>

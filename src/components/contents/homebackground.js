@@ -3,6 +3,7 @@ import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import {Link} from 'react-router-dom';
 
 
 
@@ -19,9 +20,9 @@ const homebackground =()=>{
                 <Container>
                     <Row>
                         <Col className='butts'>
-                        <Button  size="lg" className="one mb-2 ">
+                        <Link to='/searchPage'> <Button  size="lg" className="one mb-2 ">
                             SEARCH
-                        </Button>
+                        </Button></Link>
                         </Col>
                     </Row>
                     
@@ -30,9 +31,9 @@ const homebackground =()=>{
                     
                     <Row>
                         <Col className='butts'>
-                        <Button  size="lg" className=" two mb-2">
+                        <Link to='/signUp'><Button  size="lg" className=" two mb-2">
                             JOIN
-                        </Button>
+                        </Button></Link>
                         </Col>
                     </Row>
                 </Container>

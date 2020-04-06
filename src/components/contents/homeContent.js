@@ -15,7 +15,6 @@ import Es from '../images/es.png';
 import Smile from '../images/smile.jpg';
 import LocationOnIcon from '@material-ui/icons/LocationOn';
 import HomeWorkIcon from '@material-ui/icons/HomeWork';
-import ArrowDropDownIcon from '@material-ui/icons/ArrowDropDown';
 import ArrowForwardIosIcon from '@material-ui/icons/ArrowForwardIos';
 import SportsKabaddiIcon from '@material-ui/icons/SportsKabaddi';
 import WorkIcon from '@material-ui/icons/Work';
@@ -62,18 +61,18 @@ const homeContent =()=>{
                     <Row>
                         <Col>
                         <div className="card">
-                            <Link to='/searchPage'><img className="card-img-top" src={Boy} alt="" />    
+                            <Link to='/searchPage'><img className="card-img-top" src={Boy} alt="" /></Link>    
                             <div className="card-body">
                                 <h5 className="card-title" variant='primary'>Kwame</h5>
                                 <p className="card-text"><span> <LocationOnIcon style={{ color: 'orangered' }}/></span> GREATER-ACCRA</p>
                             </div>
-                            </Link>
+                            
                             
                         </div>
                         </Col>
                         <Col>
                         <div className="card">
-                            <img className="card-img-top" src={Eye} alt="" />
+                        <Link to='/searchPage'><img className="card-img-top" src={Eye} alt="" /></Link>
                             <div className="card-body">
                                 <h5 className="card-title">Laser</h5>
                                 <p className="card-text"><span> <LocationOnIcon style={{ color: 'orangered' }}/></span>ASHANTI-REGION</p>
@@ -83,7 +82,7 @@ const homeContent =()=>{
                         </Col>
                         <Col>
                         <div className="card">
-                            <img className="card-img-top" src={SignL} alt="" />
+                        <Link to='/searchPage'> <img className="card-img-top" src={SignL} alt="" /></Link>
                             <div className="card-body">
                                 <h5 className="card-title">Bernard</h5>
                                 <p className="card-text"><span> <LocationOnIcon style={{ color: 'orangered' }}/></span>EASTERN-REGION</p>
@@ -93,7 +92,7 @@ const homeContent =()=>{
                         </Col>
                         <Col>
                         <div className="card">
-                            <img className="card-img-top" src={Hear} alt="" />
+                        <Link to='/searchPage'><img className="card-img-top" src={Hear} alt="" /></Link>
                             <div className="card-body">
                                 <h5 className="card-title">Simon</h5>
                                 <p className="card-text"><span> <LocationOnIcon style={{ color: 'orangered' }}/></span>VOLTA-REGION</p>
@@ -106,7 +105,7 @@ const homeContent =()=>{
                     <Row className='second'>
                         <Col>
                         <div className="card">
-                            <img className="card-img-top" src={Sign} alt="" />
+                        <Link to='/searchPage'><img className="card-img-top" src={Sign} alt="" /></Link>
                             <div className="card-body">
                                 <h5 className="card-title">Garry</h5>
                                 <p className="card-text"><span> <LocationOnIcon style={{ color: 'orangered' }}/></span>OTI-REGION</p>
@@ -116,7 +115,7 @@ const homeContent =()=>{
                         </Col>
                         <Col>
                         <div className="card">
-                            <img className="card-img-top" src={Smile} alt="" />
+                        <Link to='/searchPage'><img className="card-img-top" src={Smile} alt="" /></Link>
                             <div className="card-body">
                                 <h5 className="card-title">Josephine</h5>
                                 <p className="card-text"><span> <LocationOnIcon style={{ color: 'orangered' }}/></span>CENTRAL-REGION</p>
@@ -126,7 +125,7 @@ const homeContent =()=>{
                         </Col>
                         <Col>
                         <div className="card">
-                            <img className="card-img-top" src={Es} alt="" />
+                        <Link to='/searchPage'> <img className="card-img-top" src={Es} alt="" /></Link>
                             <div className="card-body">
                                 <h5 className="card-title">Joseph</h5>
                                 <p className="card-text"><span> <LocationOnIcon style={{ color: 'orangered' }}/></span>GREATER-ACCRA</p>
@@ -136,7 +135,7 @@ const homeContent =()=>{
                         </Col>
                         <Col>
                         <div className="card">
-                            <img className="card-img-top" src={Sss} alt="" />
+                        <Link to='/searchPage'><img className="card-img-top" src={Sss} alt="" /></Link>
                             <div className="card-body">
                                 <h5 className="card-title">Nakwa</h5>
                                 <p className="card-text"><span> <LocationOnIcon style={{ color: 'orangered' }}/></span>WESTERN-REGION</p>

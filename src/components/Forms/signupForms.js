@@ -35,6 +35,8 @@ const signupForms =()=>{
                             <Form.Control type="text" size='lg'  placeholder="First Name" />
                             </Col>
                         </Form.Group>
+                        
+                    
                         <Form.Group as={Row} controlId="formHorizontalLast">
                             <Form.Label column sm={2}>
                             LAST NAME
@@ -59,22 +61,10 @@ const signupForms =()=>{
                             <Form.Control type="text" size='lg'  placeholder= '(000)000 0000'/>
                             </Col>
                             <Form.Label column sm={2}>
-                            LOCATION
+                            WHATSAPP
                             </Form.Label>
                             <Col sm={4}>
-                            <Form.Control as="select">
-                                <option>Select</option>
-                                <option>Greater-Accra</option>
-                                <option>Ashanti Region</option>
-                                <option>Central Region</option>
-                                <option>Western Region</option>
-                                <option>Eastern Region</option>
-                                <option>Volta Region</option>
-                                <option>Northern Region</option>
-                                <option>Upper-East</option>
-                                <option>Upper-West</option>
-                                <option>Brong-Ahafo</option>
-                            </Form.Control>
+                            <Form.Control type="text" size='lg'  placeholder= '(000)000 0000'/>
                             </Col>
                         </Form.Group>
                         <Form.Group as={Row} controlId="formHorizontalPassword">
@@ -89,6 +79,26 @@ const signupForms =()=>{
                             </Form.Label>
                             <Col sm={4}>
                             <Form.Control type="password" size='lg'  placeholder="Password" />
+                            </Col>
+                        </Form.Group>
+                        <Form.Group as={Row} controlId="formHorizontalFirst">
+                            <Form.Label column sm={2}>
+                            LOCATION
+                            </Form.Label>
+                            <Col sm={10}>
+                            <Form.Control as="select">
+                                <option>Select</option>
+                                <option>Greater-Accra</option>
+                                <option>Ashanti Region</option>
+                                <option>Central Region</option>
+                                <option>Western Region</option>
+                                <option>Eastern Region</option>
+                                <option>Volta Region</option>
+                                <option>Northern Region</option>
+                                <option>Upper-East</option>
+                                <option>Upper-West</option>
+                                <option>Brong-Ahafo</option>
+                            </Form.Control>
                             </Col>
                         </Form.Group>
                         <hr/>

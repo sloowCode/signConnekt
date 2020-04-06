@@ -97,14 +97,15 @@ const searchContent =()=>{
                     <Row>
                         <Col>
                         <div className="card">
-                            <img className="card-img-top" src={Os} alt="" />    
+                        <Link to='/profileview'> <img className="card-img-top" src={Os} alt="" /> </Link>   
                             <div className="card-body">
-                                <h5 className="card-title" variant='primary'>Ben 
-                                    <p className="card-textp"><span> <LocationOnIcon style={{ color: 'orangered', fontSize:15 }}/></span>
-                                     GREATER-ACCRA</p>
-                                </h5>
+                                 <h5 className="card-title" variant='primary'>Ben 
+                                        <p className="card-textp"><span> <LocationOnIcon style={{ color: 'orangered', fontSize:15 }}/></span>
+                                        GREATER-ACCRA</p>
+                                    </h5>
+                            
 
-                                <button size='lg' className='searchbutt'>CONTACT ME</button>
+                                <Link to='/profileview'> <button size='lg' className='searchbutt'>CONTACT ME</button></Link>
 
 
                                 
@@ -115,13 +116,13 @@ const searchContent =()=>{
                         </Col>
                         <Col>
                         <div className="card">
-                            <img className="card-img-top" src={Hair} alt="" />
+                        <Link to='/profileview'> <img className="card-img-top" src={Hair} alt="" /></Link>
                             <div className="card-body">
-                                <h5 className="card-title">Laser <p className="card-textp">
+                            <h5 className="card-title">Laser <p className="card-textp">
                                     <span> <LocationOnIcon style={{ color: 'orangered', fontSize:15 }}/></span>ASHANTI-REGION</p>
                                     </h5>
                                 
-                                <button size='lg' className='searchbutt'>CONTACT ME</button>
+                             <Link to='/profileview'><button size='lg' className='searchbutt'>CONTACT ME</button></Link>
 
                             </div>
                             
@@ -129,14 +130,15 @@ const searchContent =()=>{
                         </Col>
                         <Col>
                         <div className="card">
-                           <Link to='/profileview'><img className="card-img-top" src={Kwaku} alt="" /></Link> 
+                           <Link to='/profileview'><img className="card-img-top" src={Kwaku} alt="" /> </Link>
                             <div className="card-body">
-                                <h5 className="card-title">Kwaku<p className="card-textp">
+                            <h5 className="card-title">Kwaku<p className="card-textp">
                                     <span> <LocationOnIcon style={{ color: 'orangered', fontSize:15 }}/></span>EASTERN-REGION</p>
                                 </h5>
+                           
                                 
 
-                                <button size='lg' className='searchbutt'>CONTACT ME</button>
+                           <Link to='/profileview'>    <button size='lg' className='searchbutt'>CONTACT ME</button> </Link>
 
                             </div>
                             
@@ -144,14 +146,14 @@ const searchContent =()=>{
                         </Col>
                         <Col>
                         <div className="card">
-                            <img className="card-img-top" src={Is} alt="" />
+                        <Link to='/profileview'><img className="card-img-top" src={Is} alt="" /></Link>
                             <div className="card-body">
-                                <h5 className="card-title">Simon<p className="card-textp">
+                             <h5 className="card-title">Simon<p className="card-textp">
                                     <span> <LocationOnIcon style={{ color: 'orangered', fontSize:15 }}/></span>VOLTA-REGION</p>
                                     </h5>
                                 
 
-                                <button size='lg' className='searchbutt'>CONTACT ME</button>
+                            <Link to='/profileview'><button size='lg' className='searchbutt'>CONTACT ME</button></Link>
 
                             </div>
                             
@@ -162,14 +164,14 @@ const searchContent =()=>{
                     <Row className='second'>
                         <Col>
                         <div className="card">
-                            <img className="card-img-top" src={Down} alt="" />
+                        <Link to='/profileview'><img className="card-img-top" src={Down} alt="" /></Link>
                             <div className="card-body">
-                                <h5 className="card-title">Ladie<p className="card-textp">
+                            <h5 className="card-title">Ladie<p className="card-textp">
                                     <span> <LocationOnIcon style={{ color: 'orangered', fontSize:15 }}/></span>OTI-REGION</p>
                                 </h5>
                                 
 
-                                <button size='lg' className='searchbutt'>CONTACT ME</button>
+                            <Link to='/profileview'><button size='lg' className='searchbutt'>CONTACT ME</button></Link>
 
                             </div>
                             
@@ -177,14 +179,14 @@ const searchContent =()=>{
                         </Col>
                         <Col>
                         <div className="card">
-                            <img className="card-img-top" src={Boy} alt="" />
+                        <Link to='/profileview'><img className="card-img-top" src={Boy} alt="" /></Link>
                             <div className="card-body">
-                                <h5 className="card-title">Kwame<p className="card-textp">
+                            <h5 className="card-title">Kwame<p className="card-textp">
                                     <span> <LocationOnIcon style={{ color: 'orangered', fontSize:15 }}/></span>CENTRAL-REGION</p>
                                 </h5>
                                 
 
-                                <button size='lg' className='searchbutt'>CONTACT ME</button>
+                            <Link to='/profileview'><button size='lg' className='searchbutt'>CONTACT ME</button></Link>
 
                             </div>
                             
@@ -192,14 +194,14 @@ const searchContent =()=>{
                         </Col>
                         <Col>
                         <div className="card">
-                            <img className="card-img-top" src={Smile} alt="" />
+                        <Link to='/profileview'><img className="card-img-top" src={Smile} alt="" /></Link>
                             <div className="card-body">
-                                <h5 className="card-title">Josephine<p className="card-textp">
+                            <h5 className="card-title">Josephine<p className="card-textp">
                                     <span> <LocationOnIcon style={{ color: 'orangered', fontSize:15 }}/></span>GREATER-ACCRA</p>
                                 </h5>
-                                
+                               
 
-                                <button size='lg' className='searchbutt'>CONTACT ME</button>
+                            <Link to='/profileview'> <button size='lg' className='searchbutt'>CONTACT ME</button></Link>
 
                             </div>
                             
@@ -207,14 +209,14 @@ const searchContent =()=>{
                         </Col>
                         <Col>
                         <div className="card">
-                            <img className="card-img-top" src={Black} alt="" />
+                        <Link to='/profileview'><img className="card-img-top" src={Black} alt="" /></Link>
                             <div className="card-body">
-                                <h5 className="card-title">Zita<p className="card-textp">
+                            <h5 className="card-title">Zita<p className="card-textp">
                                     <span> <LocationOnIcon style={{ color: 'orangered', fontSize:15 }}/></span>WESTERN-REGION</p>
                                 </h5>
                                 
 
-                                <button size='lg' className='searchbutt'>CONTACT ME</button>
+                            <Link to='/profileview'><button size='lg' className='searchbutt'>CONTACT ME</button></Link>
 
                             </div>
                             
