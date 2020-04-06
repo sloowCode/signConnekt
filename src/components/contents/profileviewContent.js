@@ -19,7 +19,7 @@ const profileviewContent =()=>{
                 <Row>
                     <Col>
                         <div className="card profile-img">
-                            <img className="card-img-top" src={Kwaku} height='400' width='' />
+                            <img className="card-img-top" src={Kwaku} height='400' width='496' />
                             <div className="card-body">
                                 <span className="card-title"><LocationOnIcon className="action" style={{ fontSize: 25 }}/><p>EASTERN - REGION</p></span>
                                 <p className="card-text">Am a sign language interpreter . I support the mission to promote 

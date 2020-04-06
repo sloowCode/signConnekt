@@ -46,6 +46,9 @@
 #trans{
   background: transparent;
 }
+.usernav .navbar-nav{
+  margin-right:3rem;
+}
 nav.navbar-light .navbar-nav .nav-link {
   color: rgb(202, 27, 27);
   padding: 1.5rem;
@@ -55,8 +58,17 @@ nav.navbar-light .navbar-nav .nav-link {
   
 }
 nav.navbar-light .navbar-nav .arrowdown {
-  margin-top:2rem;
-  
+  margin:2rem 0rem 0rem 1rem;
+   
+}
+nav.navbar-light .navbar-nav .arrowdown .dropdown-item{
+  height: 40px;
+   
+}
+nav.navbar-light .navbar-nav #dropdown-basic {
+
+ height:25px;
+   
 }
 nav.navbar-light .navbar-nav .main-links {
   color:rgb(132, 124, 155);
@@ -166,7 +178,7 @@ p.or {
   border-color: sienna;
   border-width: 0.1rem;
 }
-.card-img-top{
+ .card-img-top{
   height: 250px;
   width: 245px;
   
@@ -584,7 +596,7 @@ Form .rightlabels{
 /* ABOUT PAGE */
 
 .aboutpage{
-  background-color:#f5e4ec ;
+  background-color:white ;
 }
 .about-motto .card{
   width: 100%;
@@ -780,6 +792,8 @@ Form .rightlabels{
 }
 .profile-view .profile-img .card-img-top{
   height: 500px;
+  width:496px;
+  
   
 }
 .profile-view .profile-img .card-title{
