@@ -215,10 +215,15 @@ p.or {
 .shine {
   margin-top:10rem;
   background: white;
+  border-radius: 7rem;
  
 }
 .shine span{
   color:green;
+ 
+}
+.shine .shinerow{
+  margin-top:2rem;
  
 }
 .shine .card-img{

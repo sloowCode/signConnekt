@@ -20,6 +20,7 @@ import ArrowForwardIosIcon from '@material-ui/icons/ArrowForwardIos';
 import SportsKabaddiIcon from '@material-ui/icons/SportsKabaddi';
 import WorkIcon from '@material-ui/icons/Work';
 import Jumbotron from 'react-bootstrap/Jumbotron'
+import Spinner from 'react-bootstrap/Spinner'
 
 const homeContent =()=>{
     return(
@@ -151,7 +152,13 @@ const homeContent =()=>{
             </div>
 
                     <Jumbotron  className='container shine'>
-                        <Row>
+                    <>
+                    <Spinner animation="border" size="sm" variant="danger"/>
+                    <Spinner animation="border" />
+                    <Spinner animation="grow" size="sm" variant="danger"/>
+                    <Spinner animation="grow" variant="success" />
+                    </>
+                        <Row className='shinerow'>
                             <Col md='7'>
                                     <h1>Hello, Lets ShiNe Together</h1>
                                 <p>
