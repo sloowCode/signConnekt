@@ -18,21 +18,21 @@
    background-repeat:no-repeat;
    background-size:cover;
    background-origin:fixed ;
-  }
-   /*animation-name: change;
+  
+   animation-name: change;
    animation-duration:30s;
    animation-timing-function: ease-in-out;
    animation-delay: 0s;
    animation-iteration-count: infinite;
-   animation-direction:alternate;*/
+   animation-direction:alternate;
    
   
- /*}
+ }
  @keyframes change {
    0% {background-image: url(./components/images/hand.jpg) ;}
    50% {background-image: url(./components/images/teacher.jpg) ;}
    100% {background-image: url(./components/images/sso.jpg) ;}
- }*/
+ }
 
  /* NAVBARS*/
 
