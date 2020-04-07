@@ -13,11 +13,13 @@ import Sign from '../images/sign.jpg';
 import Sss from '../images/sss.jpeg';
 import Es from '../images/es.png';
 import Smile from '../images/smile.jpg';
+import Sso from '../images/sso.jpg';
 import LocationOnIcon from '@material-ui/icons/LocationOn';
 import HomeWorkIcon from '@material-ui/icons/HomeWork';
 import ArrowForwardIosIcon from '@material-ui/icons/ArrowForwardIos';
 import SportsKabaddiIcon from '@material-ui/icons/SportsKabaddi';
 import WorkIcon from '@material-ui/icons/Work';
+import Jumbotron from 'react-bootstrap/Jumbotron'
 
 const homeContent =()=>{
     return(
@@ -147,6 +149,27 @@ const homeContent =()=>{
                 </Container>
                 
             </div>
+
+                    <Jumbotron  className='container shine'>
+                        <Row>
+                            <Col md='7'>
+                                    <h1>Hello, Lets ShiNe Together</h1>
+                                <p>
+                                    Support the <b><span>SiGn</span>-2-<span>ShiNe</span></b> campaigne , powered by <Link to=''>Nakwa Arms Foundation</Link> ,<br/> Together lets voice out and  promote
+                                    the use  of  Sign language  and make  it a  common language in our society ,<br/> The barrier  between the hard hearing and the hearing can be broken <br/>
+                                <i>"Perceived Inabilities Can Blur Out True Abilities "</i>.  The Deaf Can. Together We Can Shine!!!
+                            
+                                </p>
+                                <p>
+                                    <Button variant="danger">Support Us</Button>
+                                </p>
+                            </Col>
+                            <Col md='5'>
+                            <img className="card-img" src={Sso} width='' height='' />
+                            </Col>
+                        </Row>
+                        
+                    </Jumbotron>
                 
                
  

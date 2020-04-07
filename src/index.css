@@ -212,6 +212,32 @@ p.or {
 .card .card-text> span{
   margin-bottom: auto;
 }
+.shine {
+  margin-top:10rem;
+  background: white;
+ 
+}
+.shine span{
+  color:green;
+ 
+}
+.shine .card-img{
+  height: 350px;
+  width:400px;
+  border-radius: rem;
+ 
+}
+
+.shine p i{
+  font-weight:500;
+  color:gray;
+}
+.shine p {
+  font-weight:400;
+}
+.shine h1{
+  color:rgb(54, 52, 52);
+}
 
 
 
