@@ -1,13 +1,14 @@
-import React from 'react';
+import React, {Component} from 'react';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
-import Kwaku from '../images/kwaku.jpg';
+// import Kwaku from 'public/images/kwaku.jpg';
 
 
-const userForms =()=>{
+class  userForms extends Component {
+    render(){
     return(
         <div className="user">
            <div className="card usercard">
@@ -24,7 +25,7 @@ const userForms =()=>{
                             <Row>
                                 <Col>
                                 <figure className="figure">
-                                    <img className="figure-img img-fluid" src={Kwaku} height='300' width='300' />
+                                    <img className="figure-img img-fluid" src='/images/kwaku.jpg' height='300' width='300' />
                                     <figcaption className="figure-caption"><p>Change Photo</p> <span><button className='picbutt'>BROWSE</button></span></figcaption>
                                 </figure>
                                 </Col>
@@ -165,7 +166,7 @@ const userForms =()=>{
 
 
         </div>
-    )
+    )}
 }
 
 

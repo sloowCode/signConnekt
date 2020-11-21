@@ -9,7 +9,7 @@ import FacebookIcon from '@material-ui/icons/Facebook';
 import PhoneIcon from '@material-ui/icons/Phone';
 import EmailIcon from '@material-ui/icons/Email';
 import WhatsAppIcon from '@material-ui/icons/WhatsApp';
-import Kwaku from '../images/kwaku.jpg';
+// import Kwaku from '../images/kwaku.jpg';
 
 const profileviewContent =()=>{
     return(
@@ -19,17 +19,17 @@ const profileviewContent =()=>{
                 <Row>
                     <Col>
                         <div className="card profile-img">
-                            <img className="card-img-top" src={Kwaku} height='400' width='496' />
+                            <img className="card-img-top" src='/images/kwaku.jpg' height='400' width='496' />
                             <div className="card-body">
                                 <span className="card-title"><LocationOnIcon className="action" style={{ fontSize: 25 }}/><p>EASTERN - REGION</p></span>
-                                <p className="card-text">Am a sign language interpreter . I support the mission to promote 
+                                <p className="card-text about-text">Am a sign language interpreter . I support the mission to promote 
                                                             sign language , and  am ready offer Home Tution , hangout with buddies  and available
-                                                            for job Recruitments connected with sign language.<b><i>"Perceived Inabilities Can Blur out True Abilities".</i></b> YES WE CAN!!!</p>
+                                                            for job Recruitments connected with sign language.<b><i>"LETS CONNECT !!!".</i></b></p>
                             </div>
                         </div>
                     </Col>
                     
-                    <Col>
+                    <Col className='main-info'>
                         <div className="card profile-info">
                             <div className="card-body">
                                 <h5 className="card-title">KWAKU BAAH</h5>
@@ -41,7 +41,7 @@ const profileviewContent =()=>{
                                         <Col md='12'><h1>AGE</h1></Col>
                                         <Col md='11' className='serv'><p>32Yrs</p></Col>
                                         <Col md='12'><h1>SERVICES</h1></Col>
-                                        <Col md='11' className='serv'><p>Home Tution , Hangout, General Recruitments</p> </Col>
+                                        <Col md='11' className='serv'><p>Home Tution , Hangout, Any</p> </Col>
                                         <Col md='12'><h1>SIGN LANGUAGE</h1></Col>
                                         <Col md='11' className='serv'><p>ASL/BSL/GSL</p></Col>
                                     </Row>

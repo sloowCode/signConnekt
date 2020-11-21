@@ -5,7 +5,7 @@ import Dropdown from 'react-bootstrap/Dropdown'
 
 import Blackdeep from '../blackdeep.png';
 import {Link, NavLink, withRouter} from 'react-router-dom';
-import Kwaku from '../images/kwaku.jpg';
+// import Kwaku from '../images/kwaku.jpg';
 import ArrowDropDownIcon from '@material-ui/icons/ArrowDropDown';
 
 
@@ -21,7 +21,7 @@ import ArrowDropDownIcon from '@material-ui/icons/ArrowDropDown';
                                 <Link to="/" className='nav-link'>HOME</Link>
                                 <Link to="/searchPage" className='nav-link'>SEARCH</Link>
                                 <Link to="/aboutPage" className='nav-link'>ABOUT</Link>
-                                <img src={Kwaku} height='70' width='70'/>
+                                <img src="/images/kwaku.jpg" height='70' width='70'/>
                                 <Dropdown className='arrowdown'>
                                     <Dropdown.Toggle variant="secondary" size='sm'title='lg' id="dropdown-basic">
                                         
@@ -29,7 +29,7 @@ import ArrowDropDownIcon from '@material-ui/icons/ArrowDropDown';
 
                                     <Dropdown.Menu>
                                         <Dropdown.Item href="/userprofile">Edit profile</Dropdown.Item>
-                                        <Dropdown.Item href="/login">Logout</Dropdown.Item>
+                                        <Dropdown.Item> <Link to="/login">Logout</Link> </Dropdown.Item> 
                                         
                                     </Dropdown.Menu>
                                 </Dropdown>

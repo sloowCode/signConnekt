@@ -4,16 +4,16 @@ import Col from 'react-bootstrap/Col';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import {Link} from 'react-router-dom';
-import Taught from '../images/taught.jpg';
+// import Taught from '../images/taught.jpg';
 import Container from 'react-bootstrap/Container';
-import Os from '../images/os.jpg';
-import Hair from '../images/hair.jpg';
-import Is from '../images/is.jpg';
-import Kwaku from '../images/kwaku.jpg';
-import Boy from '../images/boy.jpg';
-import Down from '../images/down.jpg';
-import Black from '../images/black.jpg';
-import Smile from '../images/smile.jpg';
+// import Os from '../images/os.jpg';
+// import Hair from '../images/hair.jpg';
+// import Is from '../images/is.jpg';
+// import Kwaku from '../images/kwaku.jpg';
+// import Boy from '../images/boy.jpg';
+// import Down from '../images/down.jpg';
+// import Black from '../images/black.jpg';
+// import Smile from '../images/smile.jpg';
 import LocationOnIcon from '@material-ui/icons/LocationOn';
 
 
@@ -24,7 +24,7 @@ const searchContent =()=>{
                 <div className="card-body">
                     <Row>
                         <Col><h1 className="card-text">FIND YOUR INTERPRETER/TUTOR NOW </h1></Col>
-                        <Col className='searchimg'> <img src={Taught} height='350' width='600' /> </Col>
+                        <Col className='searchimg'> <img src='/images/taught.jpg' height='350' width='600' /> </Col>
                     </Row>
                     
                     
@@ -97,7 +97,7 @@ const searchContent =()=>{
                     <Row>
                         <Col>
                         <div className="card">
-                        <Link to='/profileview'> <img className="card-img-top" src={Os} alt="" /> </Link>   
+                        <Link to='/profileview'> <img className="card-img-top" src='/images/os.jpg' alt="" /> </Link>   
                             <div className="card-body">
                                  <h5 className="card-title" variant='primary'>Ben 
                                         <p className="card-textp"><span> <LocationOnIcon style={{ color: 'orangered', fontSize:15 }}/></span>
@@ -116,7 +116,7 @@ const searchContent =()=>{
                         </Col>
                         <Col>
                         <div className="card">
-                        <Link to='/profileview'> <img className="card-img-top" src={Hair} alt="" /></Link>
+                        <Link to='/profileview'> <img className="card-img-top" src='/images/hair.jpg' alt="" /></Link>
                             <div className="card-body">
                             <h5 className="card-title">Laser <p className="card-textp">
                                     <span> <LocationOnIcon style={{ color: 'orangered', fontSize:15 }}/></span>ASHANTI-REGION</p>
@@ -130,7 +130,7 @@ const searchContent =()=>{
                         </Col>
                         <Col>
                         <div className="card">
-                           <Link to='/profileview'><img className="card-img-top" src={Kwaku} alt="" /> </Link>
+                           <Link to='/profileview'><img className="card-img-top" src='/images/kwaku.jpg' alt="" /> </Link>
                             <div className="card-body">
                             <h5 className="card-title">Kwaku<p className="card-textp">
                                     <span> <LocationOnIcon style={{ color: 'orangered', fontSize:15 }}/></span>EASTERN-REGION</p>
@@ -146,7 +146,7 @@ const searchContent =()=>{
                         </Col>
                         <Col>
                         <div className="card">
-                        <Link to='/profileview'><img className="card-img-top" src={Is} alt="" /></Link>
+                        <Link to='/profileview'><img className="card-img-top" src='/images/is.jpg' alt="" /></Link>
                             <div className="card-body">
                              <h5 className="card-title">Simon<p className="card-textp">
                                     <span> <LocationOnIcon style={{ color: 'orangered', fontSize:15 }}/></span>VOLTA-REGION</p>
@@ -164,7 +164,7 @@ const searchContent =()=>{
                     <Row className='second'>
                         <Col>
                         <div className="card">
-                        <Link to='/profileview'><img className="card-img-top" src={Down} alt="" /></Link>
+                        <Link to='/profileview'><img className="card-img-top" src='/images/down.jpg' alt="" /></Link>
                             <div className="card-body">
                             <h5 className="card-title">Ladie<p className="card-textp">
                                     <span> <LocationOnIcon style={{ color: 'orangered', fontSize:15 }}/></span>OTI-REGION</p>
@@ -179,7 +179,7 @@ const searchContent =()=>{
                         </Col>
                         <Col>
                         <div className="card">
-                        <Link to='/profileview'><img className="card-img-top" src={Boy} alt="" /></Link>
+                        <Link to='/profileview'><img className="card-img-top" src='/images/boy.jpg' alt="" /></Link>
                             <div className="card-body">
                             <h5 className="card-title">Kwame<p className="card-textp">
                                     <span> <LocationOnIcon style={{ color: 'orangered', fontSize:15 }}/></span>CENTRAL-REGION</p>
@@ -194,7 +194,7 @@ const searchContent =()=>{
                         </Col>
                         <Col>
                         <div className="card">
-                        <Link to='/profileview'><img className="card-img-top" src={Smile} alt="" /></Link>
+                        <Link to='/profileview'><img className="card-img-top" src='/images/smile.jpg' alt="" /></Link>
                             <div className="card-body">
                             <h5 className="card-title">Josephine<p className="card-textp">
                                     <span> <LocationOnIcon style={{ color: 'orangered', fontSize:15 }}/></span>GREATER-ACCRA</p>
@@ -209,7 +209,7 @@ const searchContent =()=>{
                         </Col>
                         <Col>
                         <div className="card">
-                        <Link to='/profileview'><img className="card-img-top" src={Black} alt="" /></Link>
+                        <Link to='/profileview'><img className="card-img-top" src='/images/black.jpg' alt="" /></Link>
                             <div className="card-body">
                             <h5 className="card-title">Zita<p className="card-textp">
                                     <span> <LocationOnIcon style={{ color: 'orangered', fontSize:15 }}/></span>WESTERN-REGION</p>

@@ -1,5 +1,5 @@
 import React from 'react';
-import Teach from '../images/teach.jpg';
+// import Teach from '../images/teach.jpg';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Blackdeep from '../blackdeep.png';
@@ -35,12 +35,12 @@ const loginForms =()=>{
                                 
                                 </Form.Group>
                                 
-                                <Button  size="lg" variant='danger' className="butt ">
+                                <Link to="/userprofile"><Button  size="lg" variant='danger' className="butt ">
                                 LOG IN
-                                </Button>
+                                </Button></Link>
                                 
                             </Form>
-                            <p>Dont Have An Account ?<span><Link to='' style={{ color: 'red' }}> SIGN UP</Link></span> </p>
+                            <p>Dont Have An Account ?<span><Link to='/signUp' style={{ color: 'red' }}> SIGN UP</Link></span> </p>
 
                         </div>
                     </div> 

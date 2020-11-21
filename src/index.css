@@ -1,26 +1,28 @@
 
 .all {
   
-  background-color: #faeff4;
+  background-color: #fffafa;
   
 }
 .signin{
-  background-image : url(./components/images/teacher.jpg)  ;
-  background-position: right;
-  background-size: 1500px;
+  background-image : url(/images/loginpic.jpg)  ;
+  background-position: left;
+  background-size: 1200px;
   background-repeat:no-repeat;
   background-size:cover;
   background-origin:fixed ;
   
  }
- .homebackpic{
-   background-image: url(./components/images/hand.jpg)  ;
+  .homebackpic{
+   background-image: url(/images/hand.jpg)  ;
    background-repeat:no-repeat;
    background-size:cover;
    background-origin:fixed ;
+   background-position:right;
+
   
    animation-name: change;
-   animation-duration:30s;
+   animation-duration:50s;
    animation-timing-function: ease-in-out;
    animation-delay: 0s;
    animation-iteration-count: infinite;
@@ -29,10 +31,11 @@
   
  }
  @keyframes change {
-   0% {background-image: url(./components/images/hand.jpg) ;}
-   50% {background-image: url(./components/images/teacher.jpg) ;}
-   100% {background-image: url(./components/images/sso.jpg) ;}
- }
+   0% {background-image: url(/images/hand.jpg) ;}
+   50% {background-image: url(/images/taught.jpg) ;}
+   100% {background-image: url(/images/signfamily.jpg) ;}
+   200% {background-image: url(/images/teacher.jpg) ;}
+ } 
 
  /* NAVBARS*/
 
@@ -93,6 +96,49 @@ nav.navbar-light .navbar-nav .main-links:hover {
 /* HOMEPAGE */
 .center {
   margin-top: 9rem;
+  
+}
+.questions .first{
+  margin-top: -2rem;
+}
+.questions h5{
+  color: darkcyan;
+  padding: 1rem;
+  font-size: x-large;
+  
+
+}
+.questions{
+  padding:5rem;
+  background-color: linen;
+  height: 600;
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+}
+.questions img{
+  margin-top: -5rem;
+  margin-bottom: -0.5rem;
+  margin-left: 0.5rem;
+}
+.questions .row{
+  margin-bottom: -4.5rem;
+  margin-right: -1rem;
+}
+.questions .middle{
+  text-align: center;
+  margin-top: 0rem;
+  font-size:larger;
+  font-style: italic;
+  font-weight: 500;
+  color: #2B0707;
+}
+.questions .middle h2{
+  color: firebrick;
+}
+.questions button{
+  background-color: firebrick;
+  color: white;
+  font-size: larger;
 }
 .center>h1{
   
@@ -165,14 +211,63 @@ p.or {
  
  padding-left: 1rem;
 }
+/* .home-icons{
 
-
+} */
+.home-icons .sign-icons {
+  margin-top:-4rem;
+  margin-left: 2.5rem;
+  /* padding: 0rem; */
+}
+.home-icons .sign-icons .icon1{
+  margin-left:26rem;
+  margin-bottom: 2rem;
+}
+.home-icons .sign-icons .icon1 p{
+  margin-left:-5rem;
+  font-size: large;
+  color: darkcyan;
+  font-weight:600;
+}
+.home-icons .sign-icons .icon2{
+  margin-left:-3rem;
+  margin-top: 1rem;
+}
+.home-icons .sign-icons .icon2 p{
+  margin-right:3rem;
+  text-align: center;
+  font-size: large;
+  color: darkcyan;
+  font-weight:600;
+}
+.home-icons .sign-icons .icon3 {
+  margin-right:0rem;
+  margin-top: 1rem;
+}
+.home-icons .sign-icons .icon3 p{
+  margin-left:3rem;
+  margin-bottom: 0rem;
+  font-size: large;
+  color: darkcyan;
+  text-align: center;
+  font-weight:600;
+}
+.home-icons .sign-icons .card-title>h1{
+  font-weight: lighter;
+  text-align: center;
+  margin-left: 2rem;
+  font-style: italic;
+  font-size: 50px;
+  color: firebrick;
+}
 .searchTitle{
   text-align: center;
   margin-top: 2rem;
   margin-bottom: 0rem;
   font-weight: 500;
   color: black;
+  padding-right:3.5rem;
+  font-size: xx-large;
 }
 .homeline{
   border-color: sienna;
@@ -183,24 +278,45 @@ p.or {
   width: 245px;
   
 } 
+.homecard .card{
+  display :inline-flex;
+  margin:1rem;
+}
 
 .card{
   height: 300px;
   width: 245px;
 
 } 
-.card .card-title {
+.home-card .card-title {
   font-weight: 500;
   color: black;
   text-align: left;
   font-size: larger;
 }
-.card .card-text{
+.home-card .card-text{
   font-weight: 400;
   color: darkcyan;
-  font-size: large;
-  text-align: center;
-  
+  font-size: small;
+  text-align: right;
+  margin-top:-2.1rem;
+
+}
+
+ .sign-icons{
+  margin-top:10rem;
+}
+ .sign-icons .icon1{
+  margin-left:40rem;
+  margin-bottom: 2rem;
+}
+ .sign-icons .icon2{
+  margin-left:20rem;
+  margin-top: 2rem;
+}
+ .sign-icons .icon3{
+  margin-right:15rem;
+  margin-top: 2rem;
 }
 .card .card-textp{
   font-weight: 400;
@@ -218,21 +334,35 @@ p.or {
   border-radius: 7rem;
  
 }
-.shine span{
+.shinerow h1{
   color:green;
+  text-align:center;
  
 }
 .shine .shinerow{
-  margin-top:1rem;
+  margin-top:-1rem;
  
 }
 .shine .card-img{
-  height: 350px;
-  width:400px;
+  height: 440px;
+  width:100%;
+  opacity: 0.5;
+  margin-top: -3rem;
+  margin-left: -3rem;
+  margin-bottom: -9rem;
+  border-radius: 0rem;
   
- 
 }
 
+
+
+.jumbotron {
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    background-color: white;
+    border-radius: .3rem;
+    padding: 1rem 2rem;
+  }
 .shine p i{
   font-weight:500;
   color:gray;
@@ -254,7 +384,7 @@ p.or {
  
   height: 600px;
   width: 500px;
-  margin-left: 27rem;
+  margin-left: 50rem;
   margin-bottom: 2rem;
   border-width: 0.1rem;
   border-color: rgb(214, 209, 209);
@@ -377,25 +507,30 @@ color: rgb(132, 124, 155);
 /* SIGN UP PAGE*/
 
 .sign> p{
-  margin-top:7rem;
+  margin-top:10rem;
   text-align: center;
   margin-bottom: 3rem;
   font-size: larger;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
 }
 
 .sign .card {
-  margin-left: 10rem;
-  width: 800px;
+  margin-left:12rem;
+  width: 750px;
   height: 900px;
-  margin-top: 5rem;
+  margin-top: 2rem;
 }
 .sign .card >img{
   margin-top: 1rem;
-  margin-left: 19.5rem;
+  margin-left: 18.5rem;
+}
+.sign .sideimg img{
+  margin-top:;
+  margin-left: -2rem;
 }
 .sign .card .card-title{
   color: rgb(51, 14, 14);
-  margin-left: 3.5rem;
+  margin-left: 3.1rem;
 }
 .sign .card .card-body>Form {
   margin-top: 2rem;
@@ -455,7 +590,7 @@ color: rgb(132, 124, 155);
   border-top-color:sienna;
 }
 .searchcard .card{
-  border-width: 0.03rem;
+  border-width: 0.0rem;
   border-radius: 1rem;
   border-color:rgb(126, 124, 123);
   
@@ -530,7 +665,7 @@ color: rgb(132, 124, 155);
 .user .usercard{
   width: 100%;
   height: 480px;
-  background-color:#2B0707 ;
+  background-color:#fdf7fd ;
 }
 .user .usercard .card-body{
   margin-top: 1.5rem;
@@ -629,32 +764,71 @@ Form .rightlabels{
 .aboutpage{
   background-color:white ;
 }
-.about-motto .card{
+/* .about-motto .card{
   width: 100%;
   height: 750px;
-  background-image:url(./components/images/new-work.jpg) ;
+  background-image:url(/images/new-works.jpg) ;
   background-repeat:no-repeat;
   background-size:cover;
   margin-top:-0rem;
   margin-left:-0rem;
   
-}
+} */
 
-.about-motto .card .card-title>h1{
-  font-weight: normal;
+.about-motto .card-title>h1{
+  font-weight: medium;
   text-align: center;
-  margin-top: 2rem;
+  margin-top: 0rem;
   font-style: italic;
+  font-size: 50px;
+  color: rgb(92, 88, 88);
+  /* margin-right: 2rem;
+  padding: 2rem; */
 }
-.about-motto .card .card-body>img{
- margin-top:8rem;
- margin-left:34rem;
-}
+/* .about-motto .card .card-body .logo-sign{
+ margin-top:0rem;
+ margin-left:0rem;
+} */
 
 .aboutUs{
   margin-top: 8rem;
 }
-.about-motto .aboutUs .badge1{
+
+.about-motto .sign-icons{
+  margin-top:7rem;
+  /* padding: 0rem; */
+}
+.about-motto .sign-icons .icon1{
+  margin-left:41rem;
+  margin-bottom: 2rem;
+}
+.about-motto .sign-icons .icon2{
+  margin-left:0rem;
+  margin-top: 1rem;
+}
+.about-motto .sign-icons .icon3{
+  margin-right:0rem;
+  margin-top: 1rem;
+}
+/* .about-motto .aboutUs .badge1{
+  height: 100px;
+  width: 200px;
+  border-radius: 2rem;
+  font-size: xx-large;
+  font-style: italic;
+  padding-top:4.5rem;
+  padding-left: 25rem;
+  padding-bottom: 3rem;
+  margin-left:-1rem;
+  margin-bottom: 1rem;
+  margin-top: -1rem;
+  color: white;
+  background-color: black;
+  opacity: 0.9;
+  
+
+} */
+/* .about-motto .aboutUs .badge2{
   height: 100px;
   width: 200px;
   border-radius: 2rem;
@@ -662,15 +836,16 @@ Form .rightlabels{
   font-style: italic;
   padding-top:2.5rem;
   margin-left:-1rem;
-  margin-bottom: 7rem;
+  margin-bottom: 3rem;
   margin-top: -3rem;
   color: white;
   background-color: black;
   opacity: 0.9;
   
 
-}
-.about-motto .aboutUs .badge2{
+} */
+
+/* .about-motto .aboutUs .badge3{
   height: 100px;
   width: 200px;
   border-radius: 2rem;
@@ -678,53 +853,52 @@ Form .rightlabels{
   font-style: italic;
   padding-top:2.5rem;
   margin-left:-1rem;
-  margin-bottom: 7rem;
-  margin-top: -3rem;
+  margin-bottom: 3rem;
+  margin-top: -1rem;
   color: white;
   background-color: black;
   opacity: 0.9;
   
-
-}
-
-.about-motto .aboutUs .badge3{
-  height: 100px;
-  width: 200px;
-  border-radius: 2rem;
-  font-size: xx-large;
-  font-style: italic;
-  padding-top:2.5rem;
-  margin-left:-1rem;
-  margin-bottom: 7rem;
-  margin-top: -3rem;
-  color: white;
-  background-color: black;
-  opacity: 0.9;
+} */
+.aboutUs .about-row{
+  background-color:black ;
   
 }
 .aboutUs .about-row .card-img{
-  border-radius: 20rem;
-  opacity: 0.8;
+  border-radius: 0rem;
+  
+  /* opacity: 0.5; */
 }
 .aboutUs .mission-row .card-img{
-  border-radius: 20rem;
-  opacity: 0.8;
+  border-radius: 40rem;
+ 
+  /* opacity: 0.5; */
 }
 .aboutUs .vision-row .card-img{
-  border-radius: 20rem;
-  opacity: 0.8;
+  border-radius: 0rem;
+  
+  /* opacity: 0.5; */
 }
 .about-motto .aboutUs .mission-row{
-  margin-top:8rem;
+  margin:10rem;
 }
 .about-motto .aboutUs .vision-row{
   margin-top:8rem;
 }
+
+
+.aboutUs  h2{
+  color: firebrick;
+  text-align: center;
+  padding-top: 2rem;
+}
 .about-motto .aboutUs .aboutP{
-  text-align: right;
+  text-align: left;
   font-style: italic;
   font-size: larger;
   font-weight: 500;
+  color: rgb(247, 245, 245);
+  margin-top: 3rem;
 
 }
 .about-motto .aboutUs .aboutP .signlink{
@@ -744,12 +918,33 @@ Form .rightlabels{
 
 }
 .about-motto .aboutUs .vision{
-  text-align: right;
+  text-align: left;
   font-style: italic;
   font-size: larger;
   font-weight: 500;
   margin-top:5rem;
+  color: rgb(0, 0, 0);
 
+}
+.aboutUs .comment{
+  background-color: rgb(245, 241, 242);
+  font-style: italic;
+  font-size: x-large;
+  font-weight: 00;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding: 2rem;
+  margin-top: 10rem;
+  margin-bottom: 14rem;
+  color: sienna;
+
+}
+.aboutUs .comment .commenter{
+  color: rgb(37, 36, 36);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.aboutUs .comment b{
+  color: black;
+  font-size: 30px
 }
 .aboutUs .signG{
   color: orangered;
@@ -761,7 +956,7 @@ Form .rightlabels{
 /* Contact Page */
 
 .contact-content .card{
-  background-color:#2B0707 ;
+  background-color:#ffffff ;
   width:100%;
   height: 600px;
   border-top-width: 1rem;
@@ -792,7 +987,7 @@ Form .rightlabels{
   margin-top: 1.2rem;
   font-weight: 600;
   font-size: larger;
-  color: lightblue;
+  color: rgb(49, 9, 8);
   font-style: normal;
 }
 .contact-content .copyrite{
@@ -812,7 +1007,7 @@ Form .rightlabels{
   width: 950px;
   margin-top:7rem;
   margin-left: 5rem;
-  background-color: #2B0707;
+  background-color: #ffffff;
   
 }
 .profile-view .profile-img{
@@ -833,19 +1028,22 @@ Form .rightlabels{
   padding-left:8.5rem;
   color: orangered;
   width: 495px;
-  margin-left: -1.2rem;
+  margin-left: 0.0rem;
   
   
   
 }
-.profile-view .profile-img .card-text{
-  background-color:rgb(177, 167, 167) ;
+.profile-view .profile-img .about-text{
+  background-color:rgb(243, 242, 242) ;
   color:black;
-  margin-left: -1.2rem;
-  margin-right: -1.2rem;
+  margin-left: -1.25rem;
+  margin-right: -1.25rem;
   margin-bottom: 2rem;
-  height:220px;
+  text-align:center;
+  height:222px;
   padding-top:2rem;
+  font-size: large;
+
    
   
   
@@ -853,31 +1051,48 @@ Form .rightlabels{
 .profile-view .profile-img .card-title p{
   
   color: darkcyan;
+  text-align:center;
   
 }
+
 .profile-view .profile-info{
   height: 800px;
   width: 370px;
   margin-right: 0rem;
-  background-color:#2B0707 ;
+  background-color:#fffdfd ;
 }
+ 
+.profile-view .main-info{
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
 .profile-view .profile-info h5{
    text-align: center;
    font-size: x-large;
    font-weight: 800;
-   color:white;
+   color:sienna;
+}
+
+.profile-info .card-text{
+  text-align:center;
 }
 .profile-view .profile-info .status{
    
-   color:gray;
+   color:rgb(65, 60, 60);
    font-size:medium;
+   
 }
 .title-line{
-  border-width: 0.5rem;
+  border-width: 0.3rem;
   border-color:sienna;
 }
+.profile-view .profile-info .info .contact-info {
+  margin-top: 0rem;
+  margin-right: 5px;
+}
 .profile-view .profile-info .info h1{
-  color:lightgrey;
+  color:rgb(88, 82, 82);
   font-size:small;
   font-weight:medium;
   
@@ -891,14 +1106,15 @@ Form .rightlabels{
   
 }
 .profile-info .info p:hover{
-  overflow: visible;
+  overflow:visible;
 }
 .profile-view .profile-info .info .serv{
   white-space: nowrap;
   height: 40px;
-  border: 2px solid sienna;
+  border: 0.1px solid sienna;
+  border-radius: 1rem;
   margin-bottom: 0.1rem;
-  background-color: rgb(209, 202, 202);
+  background-color: rgb(255, 255, 255);
   font-weight: 500;
   
   
@@ -914,13 +1130,13 @@ Form .rightlabels{
 }
 .info .contact-info .serv2{
   margin-top:1.5rem;
-  white-space: nowrap;
-  height: 50px;
-  border: 3px solid rgb(212, 206, 206);
-  background-color: rgb(253, 245, 245);
+  white-space: ;
+  height: 48px;
+  border: 1px solid rgb(212, 206, 206);
+  background-color: rgb(253, 251, 251);
   border-radius: 1rem;
   display:inline-flex;
-  font-weight: 700;
+  font-weight: 500;
   
 }
 .info h6{

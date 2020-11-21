@@ -1,5 +1,6 @@
 import React from 'react';
 import Blackdeep from '../blackdeep.png';
+import Signhands from '../signhands.png'
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Form from 'react-bootstrap/Form';
@@ -16,13 +17,20 @@ const signupForms =()=>{
             <p> Are You A Sign Language Interpreter Or Tutor ? You Are Just A Step Away From
                 Getting New Job Opportunities And Meeting New People. Join Now And Meet
                 People Across The Globe Awaiting Your Services. </p>
-
-            <div className="card">
+            {/* <Row> */}
+                {/* <Col md=''> */}
+                {/* <div className='sideimg'>
+                <img src={Signhands} height='200' width='1200'/>
+                </div> */}
+                    
+                {/* </Col> */}
+                {/* <Col md=''> */}
+                <div className="card">
                 <img  src={Blackdeep} height='120' width='180' />
                 <div className="card-body">
                     <Row>
                         <Col > <hr/> </Col>
-                        <Col ><h5 className="card-title">Register Now</h5></Col>
+                        <Col ><h5 className="card-title">Create Account</h5></Col>
                         <Col > <hr/> </Col>
                     </Row>
 
@@ -81,26 +89,7 @@ const signupForms =()=>{
                             <Form.Control type="password" size='lg'  placeholder="Password" />
                             </Col>
                         </Form.Group>
-                        <Form.Group as={Row} controlId="formHorizontalFirst">
-                            <Form.Label column sm={2}>
-                            LOCATION
-                            </Form.Label>
-                            <Col sm={10}>
-                            <Form.Control as="select">
-                                <option>Select</option>
-                                <option>Greater-Accra</option>
-                                <option>Ashanti Region</option>
-                                <option>Central Region</option>
-                                <option>Western Region</option>
-                                <option>Eastern Region</option>
-                                <option>Volta Region</option>
-                                <option>Northern Region</option>
-                                <option>Upper-East</option>
-                                <option>Upper-West</option>
-                                <option>Brong-Ahafo</option>
-                            </Form.Control>
-                            </Col>
-                        </Form.Group>
+                        
                         <hr/>
                         <Form.Group as={Row} >
                             
@@ -132,6 +121,9 @@ const signupForms =()=>{
                    
                 </div>
             </div>
+                {/* </Col> */}
+        {/* </Row> */}
+            
         </div>
     )
 }
