@@ -60,7 +60,7 @@ const homeContent =({profiles})=>{
                             <Col md='4' className='first'>
                                 <h5><b>What Do You Do When You Meet The Deaf?</b></h5>
                                 <h5><b>Are A Business Or Organisation?</b>How Do You Communicate With Your Deaf 
-                                Clients Or Interct with with the deaf community in your business? </h5>
+                                Clients Or Interact with with the deaf community in your business? </h5>
                                 <h5><b>Are You A Parent Of The Deaf?</b> How Do You Exchange Meaningful thoughts 
                                 ideas and emotions to your child? How well do you know them and their potentials? </h5>
                             </Col>
@@ -120,41 +120,38 @@ const homeContent =({profiles})=>{
                  
                 
             
-                <div className='container-fluid'>
-                    <Jumbotron  className=' shine'>
+                <div className=' container-fluid'>
+                    <div  className=' card shine'>
                     
-                        {/* <Spinner animation="border" size="sm" variant="danger"/>
-                        <Spinner animation="border" />
-                        <Spinner animation="grow" size="sm" variant="danger"/>
-                        <Spinner animation="grow" variant="success" /> */}
-                
-                        <Row className='shinerow'>
-                            <Col md='5'>
-                            <img className="card-img" src='/images/boysign.jpg' width='' height='' />
-                            </Col>
-                            
-                            <Col md='7'>
-                                   <div>
+                    
+                        <div className='card-body'>
+                            <Row className='shinerow'>
+                                <Col md='5' className='logo'>
+                                <img className="card-img boy-img" src='/images/boysign.jpg' width='' height='' />
+                                
+                                <p className='logo-motto'>This campaign is committed to promote the use of sign langauge in Ghana to 
+                                    break the barrier between the hearing and deaf to discover new opportinities</p>
+                                </Col>
+                                
+                                <Col md='7'>
+                                   <div className='shine-motto'>
+                                        
+                                        <img className="card-img" src='/images/shine1.png' width='' height='' />
                                         <h1>Join The Sign2Shine Campaign</h1>
-                                        <p>This campaign is committed to promote the use of sign langauge in Ghana to 
-                                        break the barrier between the hearing and deaf to discover new opportinities</p>
-                                   </div> 
-                                     
                                         <p>Learn All The Basics You Need To Communicate With The Deaf for Free </p>
                                         <p>Take Advantage Of the 1month Free Signlanguage Training For Organizations</p>
                                         <p>Learn About The Deaf Community & Culture </p>
                                         <p>Learn How To Interact With The Deaf And Win Deaf Customers</p>
-                                     
+                    
+                                        <Button variant="danger">Support Us</Button>
+                                        
+                                    </div>
+                                </Col>
                             
-                                
-                                <p>
-                                    <Button variant="danger">Support Us</Button>
-                                </p>
-                            </Col>
-                            
-                        </Row>
+                            </Row>
+                        </div>
                         
-                    </Jumbotron>
+                    </div>
                 </div>
                
  

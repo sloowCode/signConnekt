@@ -110,7 +110,7 @@ nav.navbar-light .navbar-nav .main-links:hover {
 }
 .questions{
   padding:5rem;
-  background-color: linen;
+  background-color: rgb(252, 247, 241);
   height: 600;
   margin-top: 6rem;
   margin-bottom: 6rem;
@@ -135,10 +135,12 @@ nav.navbar-light .navbar-nav .main-links:hover {
 .questions .middle h2{
   color: firebrick;
 }
+
 .questions button{
   background-color: firebrick;
   color: white;
   font-size: larger;
+  border-radius: 0.5rem;
 }
 .center>h1{
   
@@ -331,22 +333,46 @@ p.or {
 .shine {
   margin-top:10rem;
   background: white;
-  border-radius: 7rem;
+  width: 100%;
+  height: 450px;
+  
  
 }
-.shinerow h1{
-  color:green;
-  text-align:center;
+.shine .shine-motto{
+  margin-left:4rem;
+}
+.shinerow .shine-motto h1{
+  color:rgb(12, 99, 12);
+  text-align:start;
+  padding-bottom: 2rem;
  
+}
+.shinerow .shine-motto .card-img{
+  margin-bottom: -28rem;
+  margin-left: -6rem;
+  margin-top: -3rem;
 }
 .shine .shinerow{
-  margin-top:-1rem;
+  margin-top:2rem;
+  margin-left: 1rem;
  
 }
-.shine .card-img{
+
+.shinerow .logo-motto{
+  text-align:center;
+  padding-right: 6rem;
+  font-weight: 500;
+  color:rgb(0, 0, 0);
+}
+.shinerow .shine-motto p{
+  text-align: start;
+  font-size: larger;
+  font-weight: 300;
+}
+.shine .shinerow .boy-img{
   height: 440px;
   width:100%;
-  opacity: 0.5;
+  opacity:1;
   margin-top: -3rem;
   margin-left: -3rem;
   margin-bottom: -9rem;
@@ -355,24 +381,6 @@ p.or {
 }
 
 
-
-.jumbotron {
-    padding: 2rem 1rem;
-    margin-bottom: 2rem;
-    background-color: white;
-    border-radius: .3rem;
-    padding: 1rem 2rem;
-  }
-.shine p i{
-  font-weight:500;
-  color:gray;
-}
-.shine p {
-  font-weight:400;
-}
-.shine h1{
-  color:rgb(54, 52, 52);
-}
 
 
 
