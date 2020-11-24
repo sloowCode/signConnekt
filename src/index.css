@@ -149,7 +149,7 @@ nav.navbar-light .navbar-nav .main-links:hover {
   font-family: 'Segoe UI' ;
   font-weight: normal;
   font-style: italic;
-  color: black;
+  color: rgb(0, 10, 10);
 }
 .center .butts .mb-2 {
   width: 220px;
@@ -267,7 +267,7 @@ p.or {
   margin-top: 2rem;
   margin-bottom: 0rem;
   font-weight: 500;
-  color: black;
+  color: rgb(80, 73, 73);
   padding-right:3.5rem;
   font-size: xx-large;
 }
@@ -331,29 +331,36 @@ p.or {
   margin-bottom: auto;
 }
 .shine {
-  margin-top:10rem;
-  background: white;
+  margin-top:13rem;
   width: 100%;
-  height: 450px;
+  height: 380px;
+  margin-bottom: -8rem;
   
  
 }
 .shine .shine-motto{
-  margin-left:4rem;
+  margin-left:6rem;
+  margin-top: 1rem;
+}
+.shine .card-body{
+  background-image: url(/images/paper.jpg);
+  background-size: cover;
+  background-color: transparent;
 }
 .shinerow .shine-motto h1{
-  color:rgb(12, 99, 12);
+  color:darkcyan;
   text-align:start;
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
  
 }
-.shinerow .shine-motto .card-img{
-  margin-bottom: -28rem;
-  margin-left: -6rem;
-  margin-top: -3rem;
+.shinerow  .card-img{
+  margin-bottom: -11rem;
+  margin-left: -11rem;
+  margin-top: 0rem;
+  width:800px;
 }
 .shine .shinerow{
-  margin-top:2rem;
+  margin-top:1rem;
   margin-left: 1rem;
  
 }
@@ -361,16 +368,19 @@ p.or {
 .shinerow .logo-motto{
   text-align:center;
   padding-right: 6rem;
+  margin-top: -18rem;
   font-weight: 500;
   color:rgb(0, 0, 0);
+  font-size: large;
 }
 .shinerow .shine-motto p{
   text-align: start;
   font-size: larger;
-  font-weight: 300;
+  font-weight: 500;
+  color: rgb(94, 92, 92);
 }
-.shine .shinerow .boy-img{
-  height: 440px;
+/* .shine .shinerow .boy-img{ */
+  /* height: 440px;
   width:100%;
   opacity:1;
   margin-top: -3rem;
@@ -378,6 +388,22 @@ p.or {
   margin-bottom: -9rem;
   border-radius: 0rem;
   
+} */
+.home-comment {
+  font-size: x-large;
+  font-weight:400;
+  font-style:italic;
+  margin-top: 7rem;
+  padding:3rem;
+  color: darkcyan;
+  background-color:  rgb(252, 247, 241);
+}
+.home-comment .commentName{
+  font-weight: 200;
+  font-style: normal;
+  font-size: large;
+  padding-top: 1rem;
+  color: black;
 }
 
 

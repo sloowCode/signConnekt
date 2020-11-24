@@ -60,7 +60,7 @@ const homeContent =({profiles})=>{
                             <Col md='4' className='first'>
                                 <h5><b>What Do You Do When You Meet The Deaf?</b></h5>
                                 <h5><b>Are A Business Or Organisation?</b>How Do You Communicate With Your Deaf 
-                                Clients Or Interact with with the deaf community in your business? </h5>
+                                Clients Or Interact with  the deaf community in your business? </h5>
                                 <h5><b>Are You A Parent Of The Deaf?</b> How Do You Exchange Meaningful thoughts 
                                 ideas and emotions to your child? How well do you know them and their potentials? </h5>
                             </Col>
@@ -78,7 +78,7 @@ const homeContent =({profiles})=>{
                     <Container>
                          <Row>
                             <Col>
-                            <p className='searchTitle'> MEET YOUR INTERPRETER TO HELP YOU  </p>
+                            <p className='searchTitle'> MEET AN INTERPRETER NEAR YOU READY TO HELP YOU  </p>
                             </Col>
                          </Row>
                          
@@ -111,7 +111,15 @@ const homeContent =({profiles})=>{
             </div>
                 
                 
-                       
+              <div className='container-fluid '>
+                  <p className='home-comment'><b>"</b> I have been over protective of my daughter and it has remained this way since her infancy 
+                  I have always felt insecured  and scared because of her hearing disabilities. Trying to know how she felt and whats she is thinking has been
+                  a major challenge for both us and has always left worry and boredom at home. 
+                  After learning sign langauge with Sandy , every thing has turnout so different and easy now . I feel very close to my 
+                   daughter now and We can have good conversations always and exchange emotions and thoughts . I  understand her now and am not over protective anymore because i know her capabilities.
+                   We are very happy now .Sign Language is a blessing for both hearing and deaf .
+                   <b>"</b>  <p className='commentName'>Shawna Wray</p></p> 
+              </div>         
                             
                                                   
                              
@@ -120,30 +128,30 @@ const homeContent =({profiles})=>{
                  
                 
             
-                <div className=' container-fluid'>
+                <div className=''>
                     <div  className=' card shine'>
                     
                     
                         <div className='card-body'>
                             <Row className='shinerow'>
                                 <Col md='5' className='logo'>
-                                <img className="card-img boy-img" src='/images/boysign.jpg' width='' height='' />
-                                
-                                <p className='logo-motto'>This campaign is committed to promote the use of sign langauge in Ghana to 
-                                    break the barrier between the hearing and deaf to discover new opportinities</p>
+                                {/* <img className="card-img boy-img" src='/images/boysign.jpg' width='' height='' /> */}
+                                <img className="card-img" src='/images/shine1.png' width='' height='' />
+                                <p className='logo-motto'>This campaign is committed to promote the use of sign langauge in Ghana&Africa to 
+                                    break the barrier between the hearing and deaf and discover new opportinities</p>
                                 </Col>
                                 
                                 <Col md='7'>
                                    <div className='shine-motto'>
                                         
-                                        <img className="card-img" src='/images/shine1.png' width='' height='' />
+                                        {/* <img className="card-img" src='/images/shine1.png' width='' height='' /> */}
                                         <h1>Join The Sign2Shine Campaign</h1>
                                         <p>Learn All The Basics You Need To Communicate With The Deaf for Free </p>
                                         <p>Take Advantage Of the 1month Free Signlanguage Training For Organizations</p>
                                         <p>Learn About The Deaf Community & Culture </p>
                                         <p>Learn How To Interact With The Deaf And Win Deaf Customers</p>
                     
-                                        <Button variant="danger">Support Us</Button>
+                                        <Button variant="danger">Get Started</Button>
                                         
                                     </div>
                                 </Col>
